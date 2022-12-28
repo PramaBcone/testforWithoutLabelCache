@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_application">
+    <sys_ui_application action="DELETE">
+        <active>true</active>
+        <hint/>
+        <name>Purchasing Organisation Staging Table (S</name>
+        <order/>
+        <roles>sn_sap_data_int.purc_org_stg_user</roles>
+        <sys_class_name>sys_ui_application</sys_class_name>
+        <sys_created_by>Midhat</sys_created_by>
+        <sys_created_on>2022-10-12 12:08:13</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>3f2e01b047ee915096fcb777746d43ca</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Purchasing Organisation Staging Table (S</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
+        <sys_update_name>sys_ui_application_3f2e01b047ee915096fcb777746d43ca</sys_update_name>
+        <sys_updated_by>Midhat</sys_updated_by>
+        <sys_updated_on>2022-10-12 12:08:13</sys_updated_on>
+    </sys_ui_application>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</application>
+        <file_path/>
+        <instance_id>c3971254db734dd00ae3ac44d4961955</instance_id>
+        <instance_name>sfmcsd02</instance_name>
+        <name>sys_ui_application_3f2e01b047ee915096fcb777746d43ca</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_application">
+    <sys_ui_application action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <hint/>
+        <name>Purchasing Organisation Staging Table (S</name>
+        <order/>
+        <roles>sn_sap_data_int.purc_org_stg_user</roles>
+        <sys_class_name>sys_ui_application</sys_class_name>
+        <sys_created_by>Midhat</sys_created_by>
+        <sys_created_on>2022-10-12 12:08:13</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>3f2e01b047ee915096fcb777746d43ca</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Purchasing Organisation Staging Table (S</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
+        <sys_update_name>sys_ui_application_3f2e01b047ee915096fcb777746d43ca</sys_update_name>
+        <sys_updated_by>Midhat</sys_updated_by>
+        <sys_updated_on>2022-10-12 12:08:13</sys_updated_on>
+    </sys_ui_application>
+</record_update>]]></payload>
+        <payload_hash>308070948</payload_hash>
+        <record_name>Purchasing Organisation Staging Table (S</record_name>
+        <reverted_from/>
+        <source>17c99c43879bd11002c4a64d0ebb35f3</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>Prama</sys_created_by>
+        <sys_created_on>2022-11-25 15:01:01</sys_created_on>
+        <sys_id>77ab584b879bd11002c4a64d0ebb359b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>184af4e64660000001</sys_recorded_at>
+        <sys_updated_by>Prama</sys_updated_by>
+        <sys_updated_on>2022-11-25 15:01:01</sys_updated_on>
+        <type>Application Menu</type>
+        <update_guid>37ab584b4f9bd1104b75a67fd2ca949b</update_guid>
+        <update_guid_history>37ab584b4f9bd1104b75a67fd2ca949b:308070948</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>Prama</sys_created_by>
+        <sys_created_on>2022-11-25 16:26:00</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_application">sys_ui_application</sys_db_object>
+        <sys_id>b73093127686444a88b7a5dd06ee5539</sys_id>
+        <sys_metadata>3f2e01b047ee915096fcb777746d43ca</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Purchasing Organisation Staging Table (S</sys_name>
+        <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
+        <sys_scope_delete display_value="">3b1319908ebb4a548e7d16c1ed008664</sys_scope_delete>
+        <sys_update_name>sys_ui_application_3f2e01b047ee915096fcb777746d43ca</sys_update_name>
+        <sys_update_version display_value="sys_ui_application_3f2e01b047ee915096fcb777746d43ca">77ab584b879bd11002c4a64d0ebb359b</sys_update_version>
+        <sys_updated_by>Prama</sys_updated_by>
+        <sys_updated_on>2022-11-25 16:26:00</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

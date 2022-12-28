@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_application">
+    <sys_ui_application action="DELETE">
+        <active>true</active>
+        <hint/>
+        <name>Cost Centers</name>
+        <order/>
+        <roles>sn_sap_data.int_cc_stg_user</roles>
+        <sys_class_name>sys_ui_application</sys_class_name>
+        <sys_created_by>Midhat</sys_created_by>
+        <sys_created_on>2022-10-18 05:22:53</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>74fa2e6647aa995096fcb777746d4384</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Cost Centers</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
+        <sys_update_name>sys_ui_application_74fa2e6647aa995096fcb777746d4384</sys_update_name>
+        <sys_updated_by>Midhat</sys_updated_by>
+        <sys_updated_on>2022-10-18 05:22:53</sys_updated_on>
+    </sys_ui_application>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</application>
+        <file_path/>
+        <instance_id>c3971254db734dd00ae3ac44d4961955</instance_id>
+        <instance_name>sfmcsd02</instance_name>
+        <name>sys_ui_application_74fa2e6647aa995096fcb777746d4384</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_application">
+    <sys_ui_application action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <hint/>
+        <name>Cost Centers</name>
+        <order/>
+        <roles>sn_sap_data.int_cc_stg_user</roles>
+        <sys_class_name>sys_ui_application</sys_class_name>
+        <sys_created_by>Midhat</sys_created_by>
+        <sys_created_on>2022-10-18 05:22:53</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>74fa2e6647aa995096fcb777746d4384</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Cost Centers</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
+        <sys_update_name>sys_ui_application_74fa2e6647aa995096fcb777746d4384</sys_update_name>
+        <sys_updated_by>Midhat</sys_updated_by>
+        <sys_updated_on>2022-10-18 05:22:53</sys_updated_on>
+    </sys_ui_application>
+</record_update>]]></payload>
+        <payload_hash>449411337</payload_hash>
+        <record_name>Cost Centers</record_name>
+        <reverted_from/>
+        <source>17c99c43879bd11002c4a64d0ebb35f3</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>Prama</sys_created_by>
+        <sys_created_on>2022-11-25 15:01:01</sys_created_on>
+        <sys_id>b3ab584b879bd11002c4a64d0ebb35a4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>184af4e660a0000001</sys_recorded_at>
+        <sys_updated_by>Prama</sys_updated_by>
+        <sys_updated_on>2022-11-25 15:01:01</sys_updated_on>
+        <type>Application Menu</type>
+        <update_guid>73ab584b949bd110ddf8ad68f9f5a2a4</update_guid>
+        <update_guid_history>73ab584b949bd110ddf8ad68f9f5a2a4:449411337</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>Prama</sys_created_by>
+        <sys_created_on>2022-11-25 16:26:37</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_application">sys_ui_application</sys_db_object>
+        <sys_id>288bf48cbe564534a32c89d7b7f93029</sys_id>
+        <sys_metadata>74fa2e6647aa995096fcb777746d4384</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Cost Centers</sys_name>
+        <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
+        <sys_scope_delete display_value="">3b1319908ebb4a548e7d16c1ed008664</sys_scope_delete>
+        <sys_update_name>sys_ui_application_74fa2e6647aa995096fcb777746d4384</sys_update_name>
+        <sys_update_version display_value="sys_ui_application_74fa2e6647aa995096fcb777746d4384">b3ab584b879bd11002c4a64d0ebb35a4</sys_update_version>
+        <sys_updated_by>Prama</sys_updated_by>
+        <sys_updated_on>2022-11-25 16:26:37</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

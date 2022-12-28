@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sn_sap_data_int_integrations_source">
+    <sn_sap_data_int_integrations_source action="INSERT_OR_UPDATE">
+        <connection>adf80925db0bd300dd14596e5e96198c</connection>
+        <name>test</name>
+        <properties/>
+        <sys_class_name>sn_sap_data_int_integrations_source</sys_class_name>
+        <sys_created_by>Varun</sys_created_by>
+        <sys_created_on>2022-12-08 06:10:33</sys_created_on>
+        <sys_id>d0ee1dc747a3d910cb762430a46d436f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>test</sys_name>
+        <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
+        <sys_update_name>sn_sap_data_int_integrations_source_d0ee1dc747a3d910cb762430a46d436f</sys_update_name>
+        <sys_updated_by>Varun</sys_updated_by>
+        <sys_updated_on>2022-12-08 06:10:33</sys_updated_on>
+    </sn_sap_data_int_integrations_source>
+</record_update>

@@ -1,0 +1,1472 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="DELETE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <internal_name>test_ledger_account_data</internal_name>
+        <label_cache>[{"name":"1a72196a-a586-4ed8-8228-0c16fbd8b94b.__dont_treat_as_error__","label":"3 - Copy of Parse_RFC_Response➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiTypeLabel":"True/False","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true","uiUniqueId":"0b918dd2-4aeb-4bf6-b06e-83d3b4e98e93"}},{"name":"1a72196a-a586-4ed8-8228-0c16fbd8b94b.__action_status__","label":"3 - Copy of Parse_RFC_Response➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiTypeLabel":"Object","co_type_name":"FDd25b6e788ab2d11022241719733b467c","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true","uiUniqueId":"d12f1232-cf85-4627-95bf-540799baf9fd"}},{"name":"1a72196a-a586-4ed8-8228-0c16fbd8b94b.json_array","label":"3 - Copy of Parse_RFC_Response➛Json array","reference_display":"Json array","type":"array.string","base_type":"array.string","attributes":{"uiTypeLabel":"Array.String","co_type_name":"FDce5b6e7827b2d11050a58def7e6a2a79","child_label":"Json_array_obj","child_type_label":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"array.string","child_type":"string","child_name":"Json_array_obj","child_uiUniqueId":"26c7fe1f-0bf2-4ca2-b23c-223c139d7829","uiUniqueId":"4a462491-f357-4b32-a56a-6f38798c3ad3"}},{"name":"04964d75-f2fb-4b52-8f3c-e31bbb8a92cf.__dont_treat_as_error__","label":"1 - Execute RFC➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiTypeLabel":"True/False","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true","uiUniqueId":"0106b8ba-b8e7-4190-952f-e25862d919f4"}},{"name":"04964d75-f2fb-4b52-8f3c-e31bbb8a92cf.__action_status__","label":"1 - Execute RFC➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiTypeLabel":"Object","co_type_name":"FD840763bca9ba9910755ead1f372a1d58","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true","uiUniqueId":"fbc20c78-5e59-42ca-a81b-a51060512856"}},{"name":"04964d75-f2fb-4b52-8f3c-e31bbb8a92cf.err","label":"1 - Execute RFC➛Error Message","reference_display":"Error Message","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"8fb55a2b-1b65-43aa-b9d2-242ee67e399c"}},{"name":"04964d75-f2fb-4b52-8f3c-e31bbb8a92cf.status","label":"1 - Execute RFC➛Status","reference_display":"Status","type":"choice","base_type":"choice","choices":[{"label":"Success","value":"success","order":0.0},{"label":"Error","value":"error","order":1.0}],"attributes":{"uiType":"choice","uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"be013fc8-8a66-424c-a986-bc6c2270b27c"}},{"name":"04964d75-f2fb-4b52-8f3c-e31bbb8a92cf.output","label":"1 - Execute RFC➛Response","reference_display":"Response","type":"dynamic_object","base_type":"dynamic_object","attributes":{"dynamic":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"ec3feb55-c033-40de-b020-c5065f65edc0"}},{"name":"fe822ccb-6c34-4d71-8a97-f986ff0031d9.__dont_treat_as_error__","label":"1 - Copy of Parse_RFC_Response➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiTypeLabel":"True/False","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true","uiUniqueId":"0b918dd2-4aeb-4bf6-b06e-83d3b4e98e93"}},{"name":"fe822ccb-6c34-4d71-8a97-f986ff0031d9.__action_status__","label":"1 - Copy of Parse_RFC_Response➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiTypeLabel":"Object","co_type_name":"FDd25b6e788ab2d11022241719733b467c","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true","uiUniqueId":"d12f1232-cf85-4627-95bf-540799baf9fd"}},{"name":"fe822ccb-6c34-4d71-8a97-f986ff0031d9.json_array","label":"1 - Copy of Parse_RFC_Response➛Json array","reference_display":"Json array","type":"array.string","base_type":"array.string","attributes":{"uiTypeLabel":"Array.String","co_type_name":"FDce5b6e7827b2d11050a58def7e6a2a79","child_label":"Json_array_obj","child_type_label":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"array.string","child_type":"string","child_name":"Json_array_obj","child_uiUniqueId":"26c7fe1f-0bf2-4ca2-b23c-223c139d7829","uiUniqueId":"4a462491-f357-4b32-a56a-6f38798c3ad3"}},{"name":"d144c0dd-92d8-4937-9912-2502b2601099.output","label":"1 - Execute RFC➛Response","reference_display":"Response","type":"dynamic_object","base_type":"dynamic_object","attributes":{"dynamic":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"ec3feb55-c033-40de-b020-c5065f65edc0"}},{"name":"d144c0dd-92d8-4937-9912-2502b2601099.status","label":"1 - Execute RFC➛Status","reference_display":"Status","type":"choice","base_type":"choice","choices":[{"label":"Success","value":"success","order":0.0},{"label":"Error","value":"error","order":1.0}],"attributes":{"uiType":"choice","uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"be013fc8-8a66-424c-a986-bc6c2270b27c"}},{"name":"d144c0dd-92d8-4937-9912-2502b2601099.err","label":"1 - Execute RFC➛Error Message","reference_display":"Error Message","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"8fb55a2b-1b65-43aa-b9d2-242ee67e399c"}},{"name":"d144c0dd-92d8-4937-9912-2502b2601099.__action_status__","label":"1 - Execute RFC➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiTypeLabel":"Object","co_type_name":"FD840763bca9ba9910755ead1f372a1d58","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true","uiUniqueId":"fbc20c78-5e59-42ca-a81b-a51060512856"}},{"name":"d144c0dd-92d8-4937-9912-2502b2601099.__dont_treat_as_error__","label":"1 - Execute RFC➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiTypeLabel":"True/False","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true","uiUniqueId":"0106b8ba-b8e7-4190-952f-e25862d919f4"}},{"name":"fcbb9829-8df9-47ab-a52d-83e3d1662292.json_array","label":"3 - Parse_RFC_Response➛Json array","reference_display":"Json array","type":"array.string","base_type":"array.string","attributes":{"uiTypeLabel":"Array.String","co_type_name":"FD935c7ab1e356d5101cb326721344486c","child_label":"Json_array_obj","child_type_label":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"array.string","child_type":"string","child_name":"Json_array_obj","child_uiUniqueId":"26c7fe1f-0bf2-4ca2-b23c-223c139d7829","uiUniqueId":"4a462491-f357-4b32-a56a-6f38798c3ad3"}},{"name":"fcbb9829-8df9-47ab-a52d-83e3d1662292.__action_status__","label":"3 - Parse_RFC_Response➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiTypeLabel":"Object","co_type_name":"FD575c7ab13c56d51028a081482d93ba6e","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true","uiUniqueId":"d12f1232-cf85-4627-95bf-540799baf9fd"}},{"name":"fcbb9829-8df9-47ab-a52d-83e3d1662292.__dont_treat_as_error__","label":"3 - Parse_RFC_Response➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiTypeLabel":"True/False","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true","uiUniqueId":"0b918dd2-4aeb-4bf6-b06e-83d3b4e98e93"}},{"name":"b209c97c-3ee8-4191-b192-fbe6c583454d.json_array","label":"3 - Parse_RFC_Response➛Json array","reference_display":"Json array","type":"array.string","base_type":"array.string","attributes":{"uiTypeLabel":"Array.String","co_type_name":"FD935c7ab1e356d5101cb326721344486c","child_label":"Json_array_obj","child_type_label":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"array.string","child_type":"string","child_name":"Json_array_obj","child_uiUniqueId":"26c7fe1f-0bf2-4ca2-b23c-223c139d7829","uiUniqueId":"4a462491-f357-4b32-a56a-6f38798c3ad3"}},{"name":"b209c97c-3ee8-4191-b192-fbe6c583454d.__action_status__","label":"3 - Parse_RFC_Response➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiTypeLabel":"Object","co_type_name":"FD575c7ab13c56d51028a081482d93ba6e","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true","uiUniqueId":"d12f1232-cf85-4627-95bf-540799baf9fd"}},{"name":"b209c97c-3ee8-4191-b192-fbe6c583454d.__dont_treat_as_error__","label":"3 - Parse_RFC_Response➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiTypeLabel":"True/False","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true","uiUniqueId":"0b918dd2-4aeb-4bf6-b06e-83d3b4e98e93"}},{"name":"78e3435a-e827-4d8d-a601-6757638e46f8.json_array","label":"2 - Copy of Parse_RFC_Response➛Json array","reference_display":"Json array","type":"array.string","base_type":"array.string","attributes":{"uiTypeLabel":"Array.String","co_type_name":"FDce5b6e7827b2d11050a58def7e6a2a79","child_label":"Json_array_obj","child_type_label":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"array.string","child_type":"string","child_name":"Json_array_obj","child_uiUniqueId":"26c7fe1f-0bf2-4ca2-b23c-223c139d7829","uiUniqueId":"4a462491-f357-4b32-a56a-6f38798c3ad3"}},{"name":"78e3435a-e827-4d8d-a601-6757638e46f8.__action_status__","label":"2 - Copy of Parse_RFC_Response➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiTypeLabel":"Object","co_type_name":"FDd25b6e788ab2d11022241719733b467c","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true","uiUniqueId":"d12f1232-cf85-4627-95bf-540799baf9fd"}},{"name":"78e3435a-e827-4d8d-a601-6757638e46f8.__dont_treat_as_error__","label":"2 - Copy of Parse_RFC_Response➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiTypeLabel":"True/False","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true","uiUniqueId":"0b918dd2-4aeb-4bf6-b06e-83d3b4e98e93"}}]</label_cache>
+        <master_snapshot>38c991e94772951096fcb777746d432b</master_snapshot>
+        <name>Test Ledger Account data</name>
+        <natlang/>
+        <outputs/>
+        <remote_trigger_id>66c9d1e94772951096fcb777746d434d</remote_trigger_id>
+        <run_as>system</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>draft</status>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>bcone</sys_created_by>
+        <sys_created_on>2022-10-27 03:47:49</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>677b20a947be551096fcb777746d434b</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_name>Test Ledger Account data</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
+        <sys_update_name>sys_hub_flow_677b20a947be551096fcb777746d434b</sys_update_name>
+        <sys_updated_by>bcone</sys_updated_by>
+        <sys_updated_on>2022-10-28 07:27:14</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow>
+    <sys_translated_text action="DELETE" query="documentkey=677b20a947be551096fcb777746d434b"/>
+    <sys_variable_value action="DELETE" query="document_key=677b20a947be551096fcb777746d434b"/>
+    <sys_flow_timer_trigger action="DELETE">
+        <active>true</active>
+        <day_of_month>1</day_of_month>
+        <day_of_week/>
+        <name/>
+        <run_period/>
+        <run_start>2022-10-27 16:00:00</run_start>
+        <sys_class_name>sys_flow_timer_trigger</sys_class_name>
+        <sys_created_by>bcone</sys_created_by>
+        <sys_created_on>2022-10-27 07:10:05</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>66c9d1e94772951096fcb777746d434d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
+        <sys_updated_by>bcone</sys_updated_by>
+        <sys_updated_on>2022-10-27 07:10:05</sys_updated_on>
+        <time/>
+        <timer_type>0</timer_type>
+    </sys_flow_timer_trigger>
+    <sys_flow_trigger_auto_script action="DELETE" query="name=Trigger:66c9d1e94772951096fcb777746d434d^sys_idNOT INeac9d1e94772951096fcb777746d434d"/>
+    <sys_flow_trigger_auto_script action="DELETE">
+        <active>true</active>
+        <business_calendar/>
+        <condition/>
+        <conditional>false</conditional>
+        <entered_time/>
+        <name>Trigger:66c9d1e94772951096fcb777746d434d</name>
+        <offset/>
+        <offset_type>0</offset_type>
+        <run_as display_value="">f636896c479e511096fcb777746d43c6</run_as>
+        <run_as_tz/>
+        <run_dayofmonth>1</run_dayofmonth>
+        <run_dayofweek/>
+        <run_period/>
+        <run_start>2022-10-27 16:00:00</run_start>
+        <run_time/>
+        <run_type>once</run_type>
+        <script><![CDATA[sn_flow_trigger.FlowTriggerAPI.fireTimerTrigger('66c9d1e94772951096fcb777746d434d');]]></script>
+        <sys_class_name>sys_flow_trigger_auto_script</sys_class_name>
+        <sys_created_by>bcone</sys_created_by>
+        <sys_created_on>2022-10-27 07:10:05</sys_created_on>
+        <sys_id>eac9d1e94772951096fcb777746d434d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>bcone</sys_updated_by>
+        <sys_updated_on>2022-10-27 07:10:05</sys_updated_on>
+        <time_zone/>
+        <trigger display_value="">66c9d1e94772951096fcb777746d434d</trigger>
+        <upgrade_safe>true</upgrade_safe>
+    </sys_flow_trigger_auto_script>
+    <sys_trigger_runner_mapping action="DELETE" query="identifier=677b20a947be551096fcb777746d434b"/>
+    <sys_hub_trigger_instance action="DELETE" query="flow=677b20a947be551096fcb777746d434b^sys_idNOT IN39aca8e947be551096fcb777746d433c"/>
+    <sys_hub_trigger_instance action="DELETE">
+        <comment/>
+        <display_text/>
+        <flow display_value="Test Ledger Account data">677b20a947be551096fcb777746d434b</flow>
+        <name>Run Once</name>
+        <remote_sys_id/>
+        <sys_created_by>bcone</sys_created_by>
+        <sys_created_on>2022-10-27 03:52:53</sys_created_on>
+        <sys_id>39aca8e947be551096fcb777746d433c</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>bcone</sys_updated_by>
+        <sys_updated_on>2022-10-28 07:27:13</sys_updated_on>
+        <trigger_definition display_value="Run Once">0a76e504c32222002841b63b12d3aeac</trigger_definition>
+        <trigger_inputs/>
+        <trigger_outputs/>
+        <trigger_type>run_once</trigger_type>
+    </sys_hub_trigger_instance>
+    <sys_variable_value action="DELETE" query="document_key=39aca8e947be551096fcb777746d433c"/>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>39aca8e947be551096fcb777746d433c</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>bcone</sys_created_by>
+        <sys_created_on>2022-10-27 04:01:27</sys_created_on>
+        <sys_id>679e64ad47be551096fcb777746d43c8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>bcone</sys_updated_by>
+        <sys_updated_on>2022-10-27 04:01:27</sys_updated_on>
+        <value>2022-10-27 09:00:00</value>
+        <variable display_value="Run in">92afcd94c32222002841b63b12d3aee8</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="DELETE" query="table=var__m_sys_hub_trigger_input_0a76e504c32222002841b63b12d3aeac^id=39aca8e947be551096fcb777746d433c"/>
+    <sys_hub_flow_stage action="DELETE" query="flow=677b20a947be551096fcb777746d434b"/>
+    <sys_flow_cat_variable_model action="DELETE" query="id=677b20a947be551096fcb777746d434b^sys_idNOT IN6f7b20a947be551096fcb777746d434b"/>
+    <sys_flow_cat_variable_model action="DELETE">
+        <id>677b20a947be551096fcb777746d434b</id>
+        <name>Test Ledger Account data</name>
+        <sys_created_by>bcone</sys_created_by>
+        <sys_created_on>2022-10-27 03:47:49</sys_created_on>
+        <sys_id>6f7b20a947be551096fcb777746d434b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>bcone</sys_updated_by>
+        <sys_updated_on>2022-10-27 03:47:49</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="DELETE" query="flow_catalog_model=6f7b20a947be551096fcb777746d434b"/>
+    <sys_hub_flow_input action="DELETE" query="model=677b20a947be551096fcb777746d434b"/>
+    <sys_hub_flow_output action="DELETE" query="model=677b20a947be551096fcb777746d434b"/>
+    <sys_hub_alias_mapping action="DELETE" query="source_id=677b20a947be551096fcb777746d434b"/>
+    <sys_hub_action_instance action="DELETE" query="flow=677b20a947be551096fcb777746d434b^sys_idNOT IN5fd66e7d47b6d51096fcb777746d43f6,b6d66e7d47b6d51096fcb777746d43db"/>
+    <sys_hub_action_instance action="DELETE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Copy of Parse_RFC_Response">bd5b6e7847b2d11096fcb777746d434f</action_type>
+        <action_type_parent/>
+        <comment/>
+        <display_text/>
+        <flow display_value="Test Ledger Account data">677b20a947be551096fcb777746d434b</flow>
+        <order>3</order>
+        <parent_ui_id>54bc7994-af8f-42ef-945c-0aa209072793</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>bcone</sys_created_by>
+        <sys_created_on>2022-10-28 07:25:18</sys_created_on>
+        <sys_id>5fd66e7d47b6d51096fcb777746d43f6</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
+        <sys_updated_by>bcone</sys_updated_by>
+        <sys_updated_on>2022-10-28 07:27:14</sys_updated_on>
+        <ui_id>1a72196a-a586-4ed8-8228-0c16fbd8b94b</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="DELETE" query="document_key=5fd66e7d47b6d51096fcb777746d43f6"/>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_action_instance</document>
+        <document_key>5fd66e7d47b6d51096fcb777746d43f6</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>bcone</sys_created_by>
+        <sys_created_on>2022-10-28 07:25:18</sys_created_on>
+        <sys_id>57d66e7d47b6d51096fcb777746d43f8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>bcone</sys_updated_by>
+        <sys_updated_on>2022-10-28 07:25:18</sys_updated_on>
+        <value>,﻿</value>
+        <variable display_value="Delimiter">4e5b6e7847b2d11096fcb777746d435a</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="DELETE" query="id=5fd66e7d47b6d51096fcb777746d43f6"/>
+    <sys_element_mapping action="DELETE">
+        <field>deli</field>
+        <id>5fd66e7d47b6d51096fcb777746d43f6</id>
+        <sys_created_by>bcone</sys_created_by>
+        <sys_created_on>2022-10-28 07:25:18</sys_created_on>
+        <sys_id>13d66e7d47b6d51096fcb777746d43f8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>bcone</sys_updated_by>
+        <sys_updated_on>2022-10-28 07:25:18</sys_updated_on>
+        <table>var__m_sys_hub_action_input_bd5b6e7847b2d11096fcb777746d434f</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="DELETE">
+        <field>json_string</field>
+        <id>5fd66e7d47b6d51096fcb777746d43f6</id>
+        <sys_created_by>bcone</sys_created_by>
+        <sys_created_on>2022-10-28 07:25:18</sys_created_on>
+        <sys_id>d3d66e7d47b6d51096fcb777746d43f8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>bcone</sys_updated_by>
+        <sys_updated_on>2022-10-28 07:25:18</sys_updated_on>
+        <table>var__m_sys_hub_action_input_bd5b6e7847b2d11096fcb777746d434f</table>
+        <value>{{04964d75-f2fb-4b52-8f3c-e31bbb8a92cf.output}}</value>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="DELETE" query="instance=5fd66e7d47b6d51096fcb777746d43f6"/>
+    <sys_hub_alias_mapping action="DELETE" query="source_id=5fd66e7d47b6d51096fcb777746d43f6"/>
+    <sys_hub_action_instance action="DELETE">
+        <action_inputs/>
+        <action_type display_value="Execute RFC">878053f3c7043010678d208c95c26025</action_type>
+        <action_type_parent/>
+        <comment/>
+        <display_text/>
+        <flow display_value="Test Ledger Account data">677b20a947be551096fcb777746d434b</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>bcone</sys_created_by>
+        <sys_created_on>2022-10-28 07:25:16</sys_created_on>
+        <sys_id>b6d66e7d47b6d51096fcb777746d43db</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
+        <sys_updated_by>bcone</sys_updated_by>
+        <sys_updated_on>2022-10-28 07:27:13</sys_updated_on>
+        <ui_id>04964d75-f2fb-4b52-8f3c-e31bbb8a92cf</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="DELETE" query="document_key=b6d66e7d47b6d51096fcb777746d43db"/>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_action_instance</document>
+        <document_key>b6d66e7d47b6d51096fcb777746d43db</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>bcone</sys_created_by>
+        <sys_created_on>2022-10-28 07:25:17</sys_created_on>
+        <sys_id>03d66e7d47b6d51096fcb777746d43df</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>bcone</sys_updated_by>
+        <sys_updated_on>2022-10-28 07:25:17</sys_updated_on>
+        <value>d0578871dbad8010ea4494d9db9619d9</value>
+        <variable display_value="Connection Alias">4b8053f3c7043010678d208c95c26026</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_action_instance</document>
+        <document_key>b6d66e7d47b6d51096fcb777746d43db</document_key>
+        <order>5</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>bcone</sys_created_by>
+        <sys_created_on>2022-10-28 07:25:17</sys_created_on>
+        <sys_id>4bd66e7d47b6d51096fcb777746d43de</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>bcone</sys_updated_by>
+        <sys_updated_on>2022-10-28 07:25:17</sys_updated_on>
+        <value>{"children":[{"children":[{"name":"TYPE","label":"TYPE","type":"string"},{"name":"ID","label":"ID","type":"string"},{"name":"NUMBER","label":"NUMBER","type":"string"},{"name":"MESSAGE","label":"MESSAGE","type":"string"},{"name":"LOG_NO","label":"LOG_NO","type":"string"},{"name":"LOG_MSG_NO","label":"LOG_MSG_NO","type":"string"},{"name":"MESSAGE_V1","label":"MESSAGE_V1","type":"string"},{"name":"MESSAGE_V2","label":"MESSAGE_V2","type":"string"},{"name":"MESSAGE_V3","label":"MESSAGE_V3","type":"string"},{"name":"MESSAGE_V4","label":"MESSAGE_V4","type":"string"},{"name":"PARAMETER","label":"PARAMETER","type":"string"},{"name":"ROW","label":"ROW","type":"integer"},{"name":"FIELD","label":"FIELD","type":"string"},{"name":"SYSTEM","label":"SYSTEM","type":"string"}],"name":"ET_RETURN","attributes":{"child_type":"object"},"label":"Return table [ ET_RETURN ]","type":"array.object"},{"children":[{"name":"WA","label":"Application data [ WA ]","type":"string"},{"name":"WA1","label":"Application data [ WA1 ]","type":"string"},{"name":"WA2","label":"Application data [ WA2 ]","type":"string"},{"name":"WA3","label":"Application data [ WA3 ]","type":"string"},{"name":"WA4","label":"Application data [ WA4 ]","type":"string"},{"name":"WA5","label":"Application data [ WA5 ]","type":"string"},{"name":"WA6","label":"Application data [ WA6 ]","type":"string"},{"name":"WA7","label":"Application data [ WA7 ]","type":"string"},{"name":"WA8","label":"Application data [ WA8 ]","type":"string"},{"name":"WA9","label":"Application data [ WA9 ]","type":"string"},{"name":"WA10","label":"Application data [ WA10 ]","type":"string"},{"name":"WA11","label":"Application data [ WA11 ]","type":"string"},{"name":"WA12","label":"Application data [ WA12 ]","type":"string"},{"name":"WA13","label":"Application data [ WA13 ]","type":"string"},{"name":"WA14","label":"Application data [ WA14 ]","type":"string"},{"name":"WA15","label":"Application data [ WA15 ]","type":"string"},{"name":"WA16","label":"Application data [ WA16 ]","type":"string"},{"name":"WA17","label":"Application data [ WA17 ]","type":"string"},{"name":"WA18","label":"Application data [ WA18 ]","type":"string"},{"name":"WA19","label":"Application data [ WA19 ]","type":"string"},{"name":"WA20","label":"Application data [ WA20 ]","type":"string"},{"name":"WA21","label":"Application data [ WA21 ]","type":"string"},{"name":"WA22","label":"Application data [ WA22 ]","type":"string"},{"name":"WA23","label":"Application data [ WA23 ]","type":"string"},{"name":"WA24","label":"Application data [ WA24 ]","type":"string"},{"name":"WA25","label":"Application data [ WA25 ]","type":"string"},{"name":"WA26","label":"Application data [ WA26 ]","type":"string"},{"name":"WA27","label":"Application data [ WA27 ]","type":"string"},{"name":"WA28","label":"Application data [ WA28 ]","type":"string"},{"name":"WA29","label":"Application data [ WA29 ]","type":"string"},{"name":"WA30","label":"Application data [ WA30 ]","type":"string"}],"name":"IT_DATA","attributes":{"child_type":"object"},"label":"Search Result Format: 8000-Byte Field [ IT_DATA ]","type":"array.object"},{"children":[{"name":"FIELDNAME","label":"Field Name","type":"string"},{"name":"OFFSET","label":"Offset of a field","type":"string"},{"name":"LENGTH","label":"No of Characters","type":"string"},{"name":"TYPE","label":"ABAP type","type":"string"},{"name":"FIELDTEXT","label":"Short Description","type":"string"}],"name":"IT_FIELDS","attributes":{"child_type":"object"},"label":"RFC Table Read: Description of Fields to Retrieve [ IT_FIELDS ]","type":"array.object"},{"children":[{"name":"TEXT","label":"Text field","type":"string"}],"name":"IT_OPTIONS","attributes":{"child_type":"object"},"label":"RFC Table Read: Select Options / WHERE Clause [ IT_OPTIONS ]","type":"array.object"}],"type":"object","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","dynamic":"true","uiUniqueId":"ec3feb55-c033-40de-b020-c5065f65edc0"}}</value>
+        <variable display_value="Response">078053f3c7043010678d208c95c26045</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_action_instance</document>
+        <document_key>b6d66e7d47b6d51096fcb777746d43db</document_key>
+        <order>3</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>bcone</sys_created_by>
+        <sys_created_on>2022-10-28 07:25:17</sys_created_on>
+        <sys_id>87d66e7d47b6d51096fcb777746d43df</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>bcone</sys_updated_by>
+        <sys_updated_on>2022-10-28 07:27:13</sys_updated_on>
+        <value>IV_QUERY_TABLE=SKB1^IV_DELIMITER=,﻿^IV_ROWCOUNT=2</value>
+        <variable display_value="Import and Changing Tab Inputs">878053f3c7043010678d208c95c26037</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_action_instance</document>
+        <document_key>b6d66e7d47b6d51096fcb777746d43db</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>bcone</sys_created_by>
+        <sys_created_on>2022-10-28 07:25:17</sys_created_on>
+        <sys_id>c3d66e7d47b6d51096fcb777746d43df</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>bcone</sys_updated_by>
+        <sys_updated_on>2022-10-28 07:25:17</sys_updated_on>
+        <value>99d0c7f54756d51096fcb777746d43ca</value>
+        <variable display_value="RFC">478053f3c7043010678d208c95c2602f</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="DELETE" query="table=var__m_sys_hub_action_input_878053f3c7043010678d208c95c26025^id=b6d66e7d47b6d51096fcb777746d43db"/>
+    <sys_hub_input_scripts action="DELETE" query="instance=b6d66e7d47b6d51096fcb777746d43db"/>
+    <sys_hub_alias_mapping action="DELETE" query="source_id=b6d66e7d47b6d51096fcb777746d43db"/>
+    <sys_hub_sub_flow_instance action="DELETE" query="flow=677b20a947be551096fcb777746d434b"/>
+    <sys_hub_flow_logic action="DELETE" query="flow=677b20a947be551096fcb777746d434b^sys_idNOT INc7d66e7d47b6d51096fcb777746d43e0"/>
+    <sys_hub_flow_logic action="DELETE">
+        <block display_value="">0fd66e7d47b6d51096fcb777746d43df</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Test Ledger Account data">677b20a947be551096fcb777746d434b</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>2</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>bcone</sys_created_by>
+        <sys_created_on>2022-10-28 07:25:17</sys_created_on>
+        <sys_id>c7d66e7d47b6d51096fcb777746d43e0</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
+        <sys_updated_by>bcone</sys_updated_by>
+        <sys_updated_on>2022-10-28 07:27:14</sys_updated_on>
+        <ui_id>54bc7994-af8f-42ef-945c-0aa209072793</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="DELETE" query="document_key=c7d66e7d47b6d51096fcb777746d43e0"/>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>c7d66e7d47b6d51096fcb777746d43e0</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>bcone</sys_created_by>
+        <sys_created_on>2022-10-28 07:25:17</sys_created_on>
+        <sys_id>cfd66e7d47b6d51096fcb777746d43e3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>bcone</sys_updated_by>
+        <sys_updated_on>2022-10-28 07:25:17</sys_updated_on>
+        <value>Execute RFC is successful</value>
+        <variable display_value="Condition Label">f0af19c1c32632002841b63b12d3aea3</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="DELETE" query="id=c7d66e7d47b6d51096fcb777746d43e0"/>
+    <sys_element_mapping action="DELETE">
+        <field>condition</field>
+        <id>c7d66e7d47b6d51096fcb777746d43e0</id>
+        <sys_created_by>bcone</sys_created_by>
+        <sys_created_on>2022-10-28 07:25:17</sys_created_on>
+        <sys_id>4fd66e7d47b6d51096fcb777746d43e3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>bcone</sys_updated_by>
+        <sys_updated_on>2022-10-28 07:25:17</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value>{{04964d75-f2fb-4b52-8f3c-e31bbb8a92cf.status}}=success</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="DELETE">
+        <field>condition_name</field>
+        <id>c7d66e7d47b6d51096fcb777746d43e0</id>
+        <sys_created_by>bcone</sys_created_by>
+        <sys_created_on>2022-10-28 07:25:17</sys_created_on>
+        <sys_id>8bd66e7d47b6d51096fcb777746d43e3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>bcone</sys_updated_by>
+        <sys_updated_on>2022-10-28 07:25:17</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_flow_logic_ext_input action="DELETE" query="model=c7d66e7d47b6d51096fcb777746d43e0"/>
+    <sys_hub_input_scripts action="DELETE" query="instance=c7d66e7d47b6d51096fcb777746d43e0"/>
+    <sys_hub_pill_compound action="DELETE" query="attached_to=677b20a947be551096fcb777746d434b"/>
+    <sys_hub_flow_variable action="DELETE" query="model=677b20a947be551096fcb777746d434b"/>
+    <sys_documentation action="DELETE" query="name=var__m_sys_hub_flow_input_677b20a947be551096fcb777746d434b"/>
+    <sys_choice action="DELETE" query="name=var__m_sys_hub_flow_input_677b20a947be551096fcb777746d434b"/>
+    <sys_documentation action="DELETE" query="name=var__m_sys_hub_flow_output_677b20a947be551096fcb777746d434b"/>
+    <sys_choice action="DELETE" query="name=var__m_sys_hub_flow_output_677b20a947be551096fcb777746d434b"/>
+    <sys_flow_trigger_plan action="DELETE" query="plan_id=677b20a947be551096fcb777746d434b^sys_idNOT IN72c9d1e94772951096fcb777746d4350"/>
+    <sys_flow_trigger_plan action="DELETE">
+        <binding_strategy>com.snc.process_flow.engine.binding.RunAlways</binding_strategy>
+        <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_trigger_plan","id":"72c9d1e94772951096fcb777746d4350","name":"plan","plan_signature":null}}</plan>
+        <plan_id>677b20a947be551096fcb777746d434b</plan_id>
+        <snapshot>6823936147ba5d1086887562846d43d7</snapshot>
+        <sys_created_by>bcone</sys_created_by>
+        <sys_created_on>2022-10-27 07:10:06</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>72c9d1e94772951096fcb777746d4350</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope/>
+        <sys_updated_by>bcone</sys_updated_by>
+        <sys_updated_on>2022-10-27 07:10:06</sys_updated_on>
+        <trigger display_value="">66c9d1e94772951096fcb777746d434d</trigger>
+    </sys_flow_trigger_plan>
+    <sys_flow_subflow_plan action="DELETE" query="plan_id=677b20a947be551096fcb777746d434b"/>
+    <sys_hub_flow_snapshot action="DELETE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <internal_name>test_ledger_account_data</internal_name>
+        <label_cache>[{"name":"78e3435a-e827-4d8d-a601-6757638e46f8.__dont_treat_as_error__","label":"3 - Copy of Parse_RFC_Response➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiTypeLabel":"True/False","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true","uiUniqueId":"0b918dd2-4aeb-4bf6-b06e-83d3b4e98e93"}},{"name":"78e3435a-e827-4d8d-a601-6757638e46f8.__action_status__","label":"3 - Copy of Parse_RFC_Response➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiTypeLabel":"Object","co_type_name":"FDd25b6e788ab2d11022241719733b467c","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true","uiUniqueId":"d12f1232-cf85-4627-95bf-540799baf9fd"}},{"name":"78e3435a-e827-4d8d-a601-6757638e46f8.json_array","label":"3 - Copy of Parse_RFC_Response➛Json array","reference_display":"Json array","type":"array.string","base_type":"array.string","attributes":{"uiTypeLabel":"Array.String","co_type_name":"FDce5b6e7827b2d11050a58def7e6a2a79","child_label":"Json_array_obj","child_type_label":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"array.string","child_type":"string","child_name":"Json_array_obj","child_uiUniqueId":"26c7fe1f-0bf2-4ca2-b23c-223c139d7829","uiUniqueId":"4a462491-f357-4b32-a56a-6f38798c3ad3"}},{"name":"b209c97c-3ee8-4191-b192-fbe6c583454d.__dont_treat_as_error__","label":"3 - Parse_RFC_Response➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiTypeLabel":"True/False","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true","uiUniqueId":"0b918dd2-4aeb-4bf6-b06e-83d3b4e98e93"}},{"name":"b209c97c-3ee8-4191-b192-fbe6c583454d.__action_status__","label":"3 - Parse_RFC_Response➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiTypeLabel":"Object","co_type_name":"FD575c7ab13c56d51028a081482d93ba6e","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true","uiUniqueId":"d12f1232-cf85-4627-95bf-540799baf9fd"}},{"name":"b209c97c-3ee8-4191-b192-fbe6c583454d.json_array","label":"3 - Parse_RFC_Response➛Json array","reference_display":"Json array","type":"array.string","base_type":"array.string","attributes":{"uiTypeLabel":"Array.String","co_type_name":"FD935c7ab1e356d5101cb326721344486c","child_label":"Json_array_obj","child_type_label":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"array.string","child_type":"string","child_name":"Json_array_obj","child_uiUniqueId":"26c7fe1f-0bf2-4ca2-b23c-223c139d7829","uiUniqueId":"4a462491-f357-4b32-a56a-6f38798c3ad3"}},{"name":"fcbb9829-8df9-47ab-a52d-83e3d1662292.__dont_treat_as_error__","label":"3 - Parse_RFC_Response➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiTypeLabel":"True/False","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true","uiUniqueId":"0b918dd2-4aeb-4bf6-b06e-83d3b4e98e93"}},{"name":"fcbb9829-8df9-47ab-a52d-83e3d1662292.__action_status__","label":"3 - Parse_RFC_Response➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiTypeLabel":"Object","co_type_name":"FD575c7ab13c56d51028a081482d93ba6e","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true","uiUniqueId":"d12f1232-cf85-4627-95bf-540799baf9fd"}},{"name":"fcbb9829-8df9-47ab-a52d-83e3d1662292.json_array","label":"3 - Parse_RFC_Response➛Json array","reference_display":"Json array","type":"array.string","base_type":"array.string","attributes":{"uiTypeLabel":"Array.String","co_type_name":"FD935c7ab1e356d5101cb326721344486c","child_label":"Json_array_obj","child_type_label":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"array.string","child_type":"string","child_name":"Json_array_obj","child_uiUniqueId":"26c7fe1f-0bf2-4ca2-b23c-223c139d7829","uiUniqueId":"4a462491-f357-4b32-a56a-6f38798c3ad3"}},{"name":"d144c0dd-92d8-4937-9912-2502b2601099.__dont_treat_as_error__","label":"1 - Execute RFC➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiTypeLabel":"True/False","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true","uiUniqueId":"0106b8ba-b8e7-4190-952f-e25862d919f4"}},{"name":"d144c0dd-92d8-4937-9912-2502b2601099.__action_status__","label":"1 - Execute RFC➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiTypeLabel":"Object","co_type_name":"FD840763bca9ba9910755ead1f372a1d58","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true","uiUniqueId":"fbc20c78-5e59-42ca-a81b-a51060512856"}},{"name":"d144c0dd-92d8-4937-9912-2502b2601099.err","label":"1 - Execute RFC➛Error Message","reference_display":"Error Message","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"8fb55a2b-1b65-43aa-b9d2-242ee67e399c"}},{"name":"d144c0dd-92d8-4937-9912-2502b2601099.status","label":"1 - Execute RFC➛Status","reference_display":"Status","type":"choice","base_type":"choice","choices":[{"label":"Success","value":"success","order":0.0},{"label":"Error","value":"error","order":1.0}],"attributes":{"uiType":"choice","uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"be013fc8-8a66-424c-a986-bc6c2270b27c"}},{"name":"d144c0dd-92d8-4937-9912-2502b2601099.output","label":"1 - Execute RFC➛Response","reference_display":"Response","type":"dynamic_object","base_type":"dynamic_object","attributes":{"dynamic":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"ec3feb55-c033-40de-b020-c5065f65edc0"}}]</label_cache>
+        <master>true</master>
+        <name>Test Ledger Account data</name>
+        <natlang/>
+        <outputs/>
+        <parent_flow display_value="Test Ledger Account data">677b20a947be551096fcb777746d434b</parent_flow>
+        <remote_trigger_id/>
+        <run_as>system</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow_snapshot</sys_class_name>
+        <sys_created_by>bcone</sys_created_by>
+        <sys_created_on>2022-10-27 07:09:58</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>38c991e94772951096fcb777746d432b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>bcone</sys_updated_by>
+        <sys_updated_on>2022-10-27 07:09:58</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow_snapshot>
+    <sys_translated_text action="DELETE" query="documentkey=38c991e94772951096fcb777746d432b"/>
+    <sys_variable_value action="DELETE" query="document_key=38c991e94772951096fcb777746d432b"/>
+    <sys_hub_trigger_instance action="DELETE" query="flow=38c991e94772951096fcb777746d432b^sys_idNOT IN2dc991e94772951096fcb777746d4391"/>
+    <sys_hub_trigger_instance action="DELETE">
+        <comment/>
+        <display_text/>
+        <flow display_value="Test Ledger Account data">38c991e94772951096fcb777746d432b</flow>
+        <name>Run Once</name>
+        <remote_sys_id/>
+        <sys_created_by>bcone</sys_created_by>
+        <sys_created_on>2022-10-27 07:10:00</sys_created_on>
+        <sys_id>2dc991e94772951096fcb777746d4391</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>bcone</sys_updated_by>
+        <sys_updated_on>2022-10-27 07:10:06</sys_updated_on>
+        <trigger_definition display_value="Run Once">0a76e504c32222002841b63b12d3aeac</trigger_definition>
+        <trigger_inputs/>
+        <trigger_outputs/>
+        <trigger_type>run_once</trigger_type>
+    </sys_hub_trigger_instance>
+    <sys_variable_value action="DELETE" query="document_key=2dc991e94772951096fcb777746d4391"/>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>2dc991e94772951096fcb777746d4391</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>bcone</sys_created_by>
+        <sys_created_on>2022-10-27 07:10:01</sys_created_on>
+        <sys_id>a5c991e94772951096fcb777746d4392</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>bcone</sys_updated_by>
+        <sys_updated_on>2022-10-27 07:10:01</sys_updated_on>
+        <value>2022-10-27 09:00:00</value>
+        <variable display_value="Run in">92afcd94c32222002841b63b12d3aee8</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="DELETE" query="table=var__m_sys_hub_trigger_input_0a76e504c32222002841b63b12d3aeac^id=2dc991e94772951096fcb777746d4391"/>
+    <sys_hub_flow_stage action="DELETE" query="flow=38c991e94772951096fcb777746d432b"/>
+    <sys_flow_cat_variable_model action="DELETE" query="id=38c991e94772951096fcb777746d432b^sys_idNOT IN34c991e94772951096fcb777746d432c"/>
+    <sys_flow_cat_variable_model action="DELETE">
+        <id>38c991e94772951096fcb777746d432b</id>
+        <name>Test Ledger Account data</name>
+        <sys_created_by>bcone</sys_created_by>
+        <sys_created_on>2022-10-27 07:09:58</sys_created_on>
+        <sys_id>34c991e94772951096fcb777746d432c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>bcone</sys_updated_by>
+        <sys_updated_on>2022-10-27 07:09:58</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="DELETE" query="flow_catalog_model=34c991e94772951096fcb777746d432c"/>
+    <sys_hub_flow_input action="DELETE" query="model=38c991e94772951096fcb777746d432b"/>
+    <sys_hub_flow_output action="DELETE" query="model=38c991e94772951096fcb777746d432b"/>
+    <sys_hub_alias_mapping action="DELETE" query="source_id=38c991e94772951096fcb777746d432b"/>
+    <sys_hub_action_instance action="DELETE" query="flow=38c991e94772951096fcb777746d432b^sys_idNOT IN15c991e94772951096fcb777746d4390,95c991e94772951096fcb777746d436e"/>
+    <sys_hub_action_instance action="DELETE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Copy of Parse_RFC_Response">bd5b6e7847b2d11096fcb777746d434f</action_type>
+        <action_type_parent display_value="Copy of Parse_RFC_Response">033b6a7847b2d11096fcb777746d4350</action_type_parent>
+        <comment/>
+        <display_text/>
+        <flow display_value="Test Ledger Account data">38c991e94772951096fcb777746d432b</flow>
+        <order>3</order>
+        <parent_ui_id>9c27f3e4-ab72-4316-a0f8-8b0b84439cde</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>bcone</sys_created_by>
+        <sys_created_on>2022-10-27 07:10:00</sys_created_on>
+        <sys_id>15c991e94772951096fcb777746d4390</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
+        <sys_updated_by>bcone</sys_updated_by>
+        <sys_updated_on>2022-10-27 07:10:00</sys_updated_on>
+        <ui_id>78e3435a-e827-4d8d-a601-6757638e46f8</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="DELETE" query="document_key=15c991e94772951096fcb777746d4390"/>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_action_instance</document>
+        <document_key>15c991e94772951096fcb777746d4390</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>bcone</sys_created_by>
+        <sys_created_on>2022-10-27 07:10:00</sys_created_on>
+        <sys_id>29c991e94772951096fcb777746d4391</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>bcone</sys_updated_by>
+        <sys_updated_on>2022-10-27 07:10:00</sys_updated_on>
+        <value>,﻿</value>
+        <variable display_value="Delimiter">4e5b6e7847b2d11096fcb777746d435a</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="DELETE" query="id=15c991e94772951096fcb777746d4390"/>
+    <sys_element_mapping action="DELETE">
+        <field>deli</field>
+        <id>15c991e94772951096fcb777746d4390</id>
+        <sys_created_by>bcone</sys_created_by>
+        <sys_created_on>2022-10-27 07:10:00</sys_created_on>
+        <sys_id>d1c991e94772951096fcb777746d4391</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>bcone</sys_updated_by>
+        <sys_updated_on>2022-10-27 07:10:00</sys_updated_on>
+        <table>var__m_sys_hub_action_input_bd5b6e7847b2d11096fcb777746d434f</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="DELETE">
+        <field>json_string</field>
+        <id>15c991e94772951096fcb777746d4390</id>
+        <sys_created_by>bcone</sys_created_by>
+        <sys_created_on>2022-10-27 07:10:00</sys_created_on>
+        <sys_id>95c991e94772951096fcb777746d4391</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>bcone</sys_updated_by>
+        <sys_updated_on>2022-10-27 07:10:00</sys_updated_on>
+        <table>var__m_sys_hub_action_input_bd5b6e7847b2d11096fcb777746d434f</table>
+        <value>{{d144c0dd-92d8-4937-9912-2502b2601099.output}}</value>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="DELETE" query="instance=15c991e94772951096fcb777746d4390"/>
+    <sys_hub_alias_mapping action="DELETE" query="source_id=15c991e94772951096fcb777746d4390"/>
+    <sys_hub_action_instance action="DELETE">
+        <action_inputs/>
+        <action_type display_value="Execute RFC">878053f3c7043010678d208c95c26025</action_type>
+        <action_type_parent display_value="Execute RFC">006b07ffc7c03010678d208c95c26001</action_type_parent>
+        <comment/>
+        <display_text/>
+        <flow display_value="Test Ledger Account data">38c991e94772951096fcb777746d432b</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>bcone</sys_created_by>
+        <sys_created_on>2022-10-27 07:09:59</sys_created_on>
+        <sys_id>95c991e94772951096fcb777746d436e</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
+        <sys_updated_by>bcone</sys_updated_by>
+        <sys_updated_on>2022-10-27 07:09:59</sys_updated_on>
+        <ui_id>d144c0dd-92d8-4937-9912-2502b2601099</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="DELETE" query="document_key=95c991e94772951096fcb777746d436e"/>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_action_instance</document>
+        <document_key>95c991e94772951096fcb777746d436e</document_key>
+        <order>3</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>bcone</sys_created_by>
+        <sys_created_on>2022-10-27 07:09:59</sys_created_on>
+        <sys_id>11c991e94772951096fcb777746d4371</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>bcone</sys_updated_by>
+        <sys_updated_on>2022-10-27 07:09:59</sys_updated_on>
+        <value>IV_QUERY_TABLE=SKB1^IV_DELIMITER=,﻿^IV_ROWCOUNT=2</value>
+        <variable display_value="Import and Changing Tab Inputs">878053f3c7043010678d208c95c26037</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_action_instance</document>
+        <document_key>95c991e94772951096fcb777746d436e</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>bcone</sys_created_by>
+        <sys_created_on>2022-10-27 07:09:59</sys_created_on>
+        <sys_id>5dc991e94772951096fcb777746d4370</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>bcone</sys_updated_by>
+        <sys_updated_on>2022-10-27 07:09:59</sys_updated_on>
+        <value>99d0c7f54756d51096fcb777746d43ca</value>
+        <variable display_value="RFC">478053f3c7043010678d208c95c2602f</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_action_instance</document>
+        <document_key>95c991e94772951096fcb777746d436e</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>bcone</sys_created_by>
+        <sys_created_on>2022-10-27 07:09:59</sys_created_on>
+        <sys_id>99c991e94772951096fcb777746d4370</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>bcone</sys_updated_by>
+        <sys_updated_on>2022-10-27 07:09:59</sys_updated_on>
+        <value>d0578871dbad8010ea4494d9db9619d9</value>
+        <variable display_value="Connection Alias">4b8053f3c7043010678d208c95c26026</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_action_instance</document>
+        <document_key>95c991e94772951096fcb777746d436e</document_key>
+        <order>5</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>bcone</sys_created_by>
+        <sys_created_on>2022-10-27 07:09:59</sys_created_on>
+        <sys_id>d5c991e94772951096fcb777746d4370</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>bcone</sys_updated_by>
+        <sys_updated_on>2022-10-27 07:09:59</sys_updated_on>
+        <value>{"children":[{"children":[{"name":"TYPE","label":"TYPE","type":"string"},{"name":"ID","label":"ID","type":"string"},{"name":"NUMBER","label":"NUMBER","type":"string"},{"name":"MESSAGE","label":"MESSAGE","type":"string"},{"name":"LOG_NO","label":"LOG_NO","type":"string"},{"name":"LOG_MSG_NO","label":"LOG_MSG_NO","type":"string"},{"name":"MESSAGE_V1","label":"MESSAGE_V1","type":"string"},{"name":"MESSAGE_V2","label":"MESSAGE_V2","type":"string"},{"name":"MESSAGE_V3","label":"MESSAGE_V3","type":"string"},{"name":"MESSAGE_V4","label":"MESSAGE_V4","type":"string"},{"name":"PARAMETER","label":"PARAMETER","type":"string"},{"name":"ROW","label":"ROW","type":"integer"},{"name":"FIELD","label":"FIELD","type":"string"},{"name":"SYSTEM","label":"SYSTEM","type":"string"}],"name":"ET_RETURN","attributes":{"child_type":"object"},"label":"Return table [ ET_RETURN ]","type":"array.object"},{"children":[{"name":"WA","label":"Application data [ WA ]","type":"string"},{"name":"WA1","label":"Application data [ WA1 ]","type":"string"},{"name":"WA2","label":"Application data [ WA2 ]","type":"string"},{"name":"WA3","label":"Application data [ WA3 ]","type":"string"},{"name":"WA4","label":"Application data [ WA4 ]","type":"string"},{"name":"WA5","label":"Application data [ WA5 ]","type":"string"},{"name":"WA6","label":"Application data [ WA6 ]","type":"string"},{"name":"WA7","label":"Application data [ WA7 ]","type":"string"},{"name":"WA8","label":"Application data [ WA8 ]","type":"string"},{"name":"WA9","label":"Application data [ WA9 ]","type":"string"},{"name":"WA10","label":"Application data [ WA10 ]","type":"string"},{"name":"WA11","label":"Application data [ WA11 ]","type":"string"},{"name":"WA12","label":"Application data [ WA12 ]","type":"string"},{"name":"WA13","label":"Application data [ WA13 ]","type":"string"},{"name":"WA14","label":"Application data [ WA14 ]","type":"string"},{"name":"WA15","label":"Application data [ WA15 ]","type":"string"},{"name":"WA16","label":"Application data [ WA16 ]","type":"string"},{"name":"WA17","label":"Application data [ WA17 ]","type":"string"},{"name":"WA18","label":"Application data [ WA18 ]","type":"string"},{"name":"WA19","label":"Application data [ WA19 ]","type":"string"},{"name":"WA20","label":"Application data [ WA20 ]","type":"string"},{"name":"WA21","label":"Application data [ WA21 ]","type":"string"},{"name":"WA22","label":"Application data [ WA22 ]","type":"string"},{"name":"WA23","label":"Application data [ WA23 ]","type":"string"},{"name":"WA24","label":"Application data [ WA24 ]","type":"string"},{"name":"WA25","label":"Application data [ WA25 ]","type":"string"},{"name":"WA26","label":"Application data [ WA26 ]","type":"string"},{"name":"WA27","label":"Application data [ WA27 ]","type":"string"},{"name":"WA28","label":"Application data [ WA28 ]","type":"string"},{"name":"WA29","label":"Application data [ WA29 ]","type":"string"},{"name":"WA30","label":"Application data [ WA30 ]","type":"string"}],"name":"IT_DATA","attributes":{"child_type":"object"},"label":"Search Result Format: 8000-Byte Field [ IT_DATA ]","type":"array.object"},{"children":[{"name":"FIELDNAME","label":"Field Name","type":"string"},{"name":"OFFSET","label":"Offset of a field","type":"string"},{"name":"LENGTH","label":"No of Characters","type":"string"},{"name":"TYPE","label":"ABAP type","type":"string"},{"name":"FIELDTEXT","label":"Short Description","type":"string"}],"name":"IT_FIELDS","attributes":{"child_type":"object"},"label":"RFC Table Read: Description of Fields to Retrieve [ IT_FIELDS ]","type":"array.object"},{"children":[{"name":"TEXT","label":"Text field","type":"string"}],"name":"IT_OPTIONS","attributes":{"child_type":"object"},"label":"RFC Table Read: Select Options / WHERE Clause [ IT_OPTIONS ]","type":"array.object"}],"type":"object","attributes":{"dynamic":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"ec3feb55-c033-40de-b020-c5065f65edc0"}}</value>
+        <variable display_value="Response">078053f3c7043010678d208c95c26045</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="DELETE" query="table=var__m_sys_hub_action_input_878053f3c7043010678d208c95c26025^id=95c991e94772951096fcb777746d436e"/>
+    <sys_hub_input_scripts action="DELETE" query="instance=95c991e94772951096fcb777746d436e"/>
+    <sys_hub_alias_mapping action="DELETE" query="source_id=95c991e94772951096fcb777746d436e"/>
+    <sys_hub_sub_flow_instance action="DELETE" query="flow=38c991e94772951096fcb777746d432b"/>
+    <sys_hub_flow_logic action="DELETE" query="flow=38c991e94772951096fcb777746d432b^sys_idNOT IN3cc991e94772951096fcb777746d432f"/>
+    <sys_hub_flow_logic action="DELETE">
+        <block display_value="">8aaca8e947be551096fcb777746d4356</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Test Ledger Account data">38c991e94772951096fcb777746d432b</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>2</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>bcone</sys_created_by>
+        <sys_created_on>2022-10-27 07:09:58</sys_created_on>
+        <sys_id>3cc991e94772951096fcb777746d432f</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>bcone</sys_updated_by>
+        <sys_updated_on>2022-10-27 07:09:58</sys_updated_on>
+        <ui_id>9c27f3e4-ab72-4316-a0f8-8b0b84439cde</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="DELETE" query="document_key=3cc991e94772951096fcb777746d432f"/>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>3cc991e94772951096fcb777746d432f</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>bcone</sys_created_by>
+        <sys_created_on>2022-10-27 07:09:58</sys_created_on>
+        <sys_id>c9c991e94772951096fcb777746d4332</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>bcone</sys_updated_by>
+        <sys_updated_on>2022-10-27 07:09:58</sys_updated_on>
+        <value>Execute RFC is successful</value>
+        <variable display_value="Condition Label">f0af19c1c32632002841b63b12d3aea3</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="DELETE" query="id=3cc991e94772951096fcb777746d432f"/>
+    <sys_element_mapping action="DELETE">
+        <field>condition</field>
+        <id>3cc991e94772951096fcb777746d432f</id>
+        <sys_created_by>bcone</sys_created_by>
+        <sys_created_on>2022-10-27 07:09:58</sys_created_on>
+        <sys_id>49c991e94772951096fcb777746d4332</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>bcone</sys_updated_by>
+        <sys_updated_on>2022-10-27 07:09:58</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value>{{d144c0dd-92d8-4937-9912-2502b2601099.status}}=success</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="DELETE">
+        <field>condition_name</field>
+        <id>3cc991e94772951096fcb777746d432f</id>
+        <sys_created_by>bcone</sys_created_by>
+        <sys_created_on>2022-10-27 07:09:58</sys_created_on>
+        <sys_id>b4c991e94772951096fcb777746d4332</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>bcone</sys_updated_by>
+        <sys_updated_on>2022-10-27 07:09:58</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_flow_logic_ext_input action="DELETE" query="model=3cc991e94772951096fcb777746d432f"/>
+    <sys_hub_input_scripts action="DELETE" query="instance=3cc991e94772951096fcb777746d432f"/>
+    <sys_hub_pill_compound action="DELETE" query="attached_to=38c991e94772951096fcb777746d432b"/>
+    <sys_hub_flow_variable action="DELETE" query="model=38c991e94772951096fcb777746d432b"/>
+    <sys_documentation action="DELETE" query="name=var__m_sys_hub_flow_input_38c991e94772951096fcb777746d432b"/>
+    <sys_choice action="DELETE" query="name=var__m_sys_hub_flow_input_38c991e94772951096fcb777746d432b"/>
+    <sys_documentation action="DELETE" query="name=var__m_sys_hub_flow_output_38c991e94772951096fcb777746d432b"/>
+    <sys_choice action="DELETE" query="name=var__m_sys_hub_flow_output_38c991e94772951096fcb777746d432b"/>
+    <sys_hub_flow action="DELETE">
+        <sys_id>677b20a947be551096fcb777746d434b</sys_id>
+        <latest_snapshot>38c991e94772951096fcb777746d432b</latest_snapshot>
+        <compiler_build>glide-sandiego-12-22-2021__patch4a-06-21-2022_07-12-2022_1907.zip</compiler_build>
+    </sys_hub_flow>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</application>
+        <file_path/>
+        <instance_id>c3971254db734dd00ae3ac44d4961955</instance_id>
+        <instance_name>sfmcsd02</instance_name>
+        <name>sys_hub_flow_677b20a947be551096fcb777746d434b</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_hub_flow"&gt;
+    &lt;sys_hub_flow action="INSERT_OR_UPDATE"&gt;
+        &lt;access&gt;public&lt;/access&gt;
+        &lt;acls/&gt;
+        &lt;active&gt;true&lt;/active&gt;
+        &lt;annotation/&gt;
+        &lt;callable_by_client_api&gt;false&lt;/callable_by_client_api&gt;
+        &lt;category/&gt;
+        &lt;copied_from/&gt;
+        &lt;copied_from_name/&gt;
+        &lt;description/&gt;
+        &lt;internal_name&gt;test_ledger_account_data&lt;/internal_name&gt;
+        &lt;label_cache&gt;[{"name":"1a72196a-a586-4ed8-8228-0c16fbd8b94b.__dont_treat_as_error__","label":"3 - Copy of Parse_RFC_Response➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiTypeLabel":"True/False","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true","uiUniqueId":"0b918dd2-4aeb-4bf6-b06e-83d3b4e98e93"}},{"name":"1a72196a-a586-4ed8-8228-0c16fbd8b94b.__action_status__","label":"3 - Copy of Parse_RFC_Response➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiTypeLabel":"Object","co_type_name":"FDd25b6e788ab2d11022241719733b467c","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true","uiUniqueId":"d12f1232-cf85-4627-95bf-540799baf9fd"}},{"name":"1a72196a-a586-4ed8-8228-0c16fbd8b94b.json_array","label":"3 - Copy of Parse_RFC_Response➛Json array","reference_display":"Json array","type":"array.string","base_type":"array.string","attributes":{"uiTypeLabel":"Array.String","co_type_name":"FDce5b6e7827b2d11050a58def7e6a2a79","child_label":"Json_array_obj","child_type_label":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"array.string","child_type":"string","child_name":"Json_array_obj","child_uiUniqueId":"26c7fe1f-0bf2-4ca2-b23c-223c139d7829","uiUniqueId":"4a462491-f357-4b32-a56a-6f38798c3ad3"}},{"name":"04964d75-f2fb-4b52-8f3c-e31bbb8a92cf.__dont_treat_as_error__","label":"1 - Execute RFC➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiTypeLabel":"True/False","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true","uiUniqueId":"0106b8ba-b8e7-4190-952f-e25862d919f4"}},{"name":"04964d75-f2fb-4b52-8f3c-e31bbb8a92cf.__action_status__","label":"1 - Execute RFC➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiTypeLabel":"Object","co_type_name":"FD840763bca9ba9910755ead1f372a1d58","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true","uiUniqueId":"fbc20c78-5e59-42ca-a81b-a51060512856"}},{"name":"04964d75-f2fb-4b52-8f3c-e31bbb8a92cf.err","label":"1 - Execute RFC➛Error Message","reference_display":"Error Message","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"8fb55a2b-1b65-43aa-b9d2-242ee67e399c"}},{"name":"04964d75-f2fb-4b52-8f3c-e31bbb8a92cf.status","label":"1 - Execute RFC➛Status","reference_display":"Status","type":"choice","base_type":"choice","choices":[{"label":"Success","value":"success","order":0.0},{"label":"Error","value":"error","order":1.0}],"attributes":{"uiType":"choice","uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"be013fc8-8a66-424c-a986-bc6c2270b27c"}},{"name":"04964d75-f2fb-4b52-8f3c-e31bbb8a92cf.output","label":"1 - Execute RFC➛Response","reference_display":"Response","type":"dynamic_object","base_type":"dynamic_object","attributes":{"dynamic":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"ec3feb55-c033-40de-b020-c5065f65edc0"}},{"name":"fe822ccb-6c34-4d71-8a97-f986ff0031d9.__dont_treat_as_error__","label":"1 - Copy of Parse_RFC_Response➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiTypeLabel":"True/False","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true","uiUniqueId":"0b918dd2-4aeb-4bf6-b06e-83d3b4e98e93"}},{"name":"fe822ccb-6c34-4d71-8a97-f986ff0031d9.__action_status__","label":"1 - Copy of Parse_RFC_Response➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiTypeLabel":"Object","co_type_name":"FDd25b6e788ab2d11022241719733b467c","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true","uiUniqueId":"d12f1232-cf85-4627-95bf-540799baf9fd"}},{"name":"fe822ccb-6c34-4d71-8a97-f986ff0031d9.json_array","label":"1 - Copy of Parse_RFC_Response➛Json array","reference_display":"Json array","type":"array.string","base_type":"array.string","attributes":{"uiTypeLabel":"Array.String","co_type_name":"FDce5b6e7827b2d11050a58def7e6a2a79","child_label":"Json_array_obj","child_type_label":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"array.string","child_type":"string","child_name":"Json_array_obj","child_uiUniqueId":"26c7fe1f-0bf2-4ca2-b23c-223c139d7829","uiUniqueId":"4a462491-f357-4b32-a56a-6f38798c3ad3"}},{"name":"d144c0dd-92d8-4937-9912-2502b2601099.output","label":"1 - Execute RFC➛Response","reference_display":"Response","type":"dynamic_object","base_type":"dynamic_object","attributes":{"dynamic":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"ec3feb55-c033-40de-b020-c5065f65edc0"}},{"name":"d144c0dd-92d8-4937-9912-2502b2601099.status","label":"1 - Execute RFC➛Status","reference_display":"Status","type":"choice","base_type":"choice","choices":[{"label":"Success","value":"success","order":0.0},{"label":"Error","value":"error","order":1.0}],"attributes":{"uiType":"choice","uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"be013fc8-8a66-424c-a986-bc6c2270b27c"}},{"name":"d144c0dd-92d8-4937-9912-2502b2601099.err","label":"1 - Execute RFC➛Error Message","reference_display":"Error Message","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"8fb55a2b-1b65-43aa-b9d2-242ee67e399c"}},{"name":"d144c0dd-92d8-4937-9912-2502b2601099.__action_status__","label":"1 - Execute RFC➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiTypeLabel":"Object","co_type_name":"FD840763bca9ba9910755ead1f372a1d58","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true","uiUniqueId":"fbc20c78-5e59-42ca-a81b-a51060512856"}},{"name":"d144c0dd-92d8-4937-9912-2502b2601099.__dont_treat_as_error__","label":"1 - Execute RFC➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiTypeLabel":"True/False","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true","uiUniqueId":"0106b8ba-b8e7-4190-952f-e25862d919f4"}},{"name":"fcbb9829-8df9-47ab-a52d-83e3d1662292.json_array","label":"3 - Parse_RFC_Response➛Json array","reference_display":"Json array","type":"array.string","base_type":"array.string","attributes":{"uiTypeLabel":"Array.String","co_type_name":"FD935c7ab1e356d5101cb326721344486c","child_label":"Json_array_obj","child_type_label":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"array.string","child_type":"string","child_name":"Json_array_obj","child_uiUniqueId":"26c7fe1f-0bf2-4ca2-b23c-223c139d7829","uiUniqueId":"4a462491-f357-4b32-a56a-6f38798c3ad3"}},{"name":"fcbb9829-8df9-47ab-a52d-83e3d1662292.__action_status__","label":"3 - Parse_RFC_Response➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiTypeLabel":"Object","co_type_name":"FD575c7ab13c56d51028a081482d93ba6e","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true","uiUniqueId":"d12f1232-cf85-4627-95bf-540799baf9fd"}},{"name":"fcbb9829-8df9-47ab-a52d-83e3d1662292.__dont_treat_as_error__","label":"3 - Parse_RFC_Response➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiTypeLabel":"True/False","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true","uiUniqueId":"0b918dd2-4aeb-4bf6-b06e-83d3b4e98e93"}},{"name":"b209c97c-3ee8-4191-b192-fbe6c583454d.json_array","label":"3 - Parse_RFC_Response➛Json array","reference_display":"Json array","type":"array.string","base_type":"array.string","attributes":{"uiTypeLabel":"Array.String","co_type_name":"FD935c7ab1e356d5101cb326721344486c","child_label":"Json_array_obj","child_type_label":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"array.string","child_type":"string","child_name":"Json_array_obj","child_uiUniqueId":"26c7fe1f-0bf2-4ca2-b23c-223c139d7829","uiUniqueId":"4a462491-f357-4b32-a56a-6f38798c3ad3"}},{"name":"b209c97c-3ee8-4191-b192-fbe6c583454d.__action_status__","label":"3 - Parse_RFC_Response➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiTypeLabel":"Object","co_type_name":"FD575c7ab13c56d51028a081482d93ba6e","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true","uiUniqueId":"d12f1232-cf85-4627-95bf-540799baf9fd"}},{"name":"b209c97c-3ee8-4191-b192-fbe6c583454d.__dont_treat_as_error__","label":"3 - Parse_RFC_Response➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiTypeLabel":"True/False","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true","uiUniqueId":"0b918dd2-4aeb-4bf6-b06e-83d3b4e98e93"}},{"name":"78e3435a-e827-4d8d-a601-6757638e46f8.json_array","label":"2 - Copy of Parse_RFC_Response➛Json array","reference_display":"Json array","type":"array.string","base_type":"array.string","attributes":{"uiTypeLabel":"Array.String","co_type_name":"FDce5b6e7827b2d11050a58def7e6a2a79","child_label":"Json_array_obj","child_type_label":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"array.string","child_type":"string","child_name":"Json_array_obj","child_uiUniqueId":"26c7fe1f-0bf2-4ca2-b23c-223c139d7829","uiUniqueId":"4a462491-f357-4b32-a56a-6f38798c3ad3"}},{"name":"78e3435a-e827-4d8d-a601-6757638e46f8.__action_status__","label":"2 - Copy of Parse_RFC_Response➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiTypeLabel":"Object","co_type_name":"FDd25b6e788ab2d11022241719733b467c","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true","uiUniqueId":"d12f1232-cf85-4627-95bf-540799baf9fd"}},{"name":"78e3435a-e827-4d8d-a601-6757638e46f8.__dont_treat_as_error__","label":"2 - Copy of Parse_RFC_Response➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiTypeLabel":"True/False","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true","uiUniqueId":"0b918dd2-4aeb-4bf6-b06e-83d3b4e98e93"}}]&lt;/label_cache&gt;
+        &lt;master_snapshot&gt;38c991e94772951096fcb777746d432b&lt;/master_snapshot&gt;
+        &lt;name&gt;Test Ledger Account data&lt;/name&gt;
+        &lt;natlang/&gt;
+        &lt;outputs/&gt;
+        &lt;remote_trigger_id&gt;66c9d1e94772951096fcb777746d434d&lt;/remote_trigger_id&gt;
+        &lt;run_as&gt;system&lt;/run_as&gt;
+        &lt;run_with_roles/&gt;
+        &lt;sc_callable&gt;false&lt;/sc_callable&gt;
+        &lt;show_draft_actions&gt;false&lt;/show_draft_actions&gt;
+        &lt;show_triggered_flows&gt;false&lt;/show_triggered_flows&gt;
+        &lt;status&gt;draft&lt;/status&gt;
+        &lt;sys_class_name&gt;sys_hub_flow&lt;/sys_class_name&gt;
+        &lt;sys_created_by&gt;bcone&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2022-10-27 03:47:49&lt;/sys_created_on&gt;
+        &lt;sys_domain&gt;global&lt;/sys_domain&gt;
+        &lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;
+        &lt;sys_id&gt;677b20a947be551096fcb777746d434b&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;10&lt;/sys_mod_count&gt;
+        &lt;sys_name&gt;Test Ledger Account data&lt;/sys_name&gt;
+        &lt;sys_overrides/&gt;
+        &lt;sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int"&gt;93c7f5cb875a1950fd73642d0ebb3590&lt;/sys_package&gt;
+        &lt;sys_policy/&gt;
+        &lt;sys_scope display_value="Primary Data Integration with SAP"&gt;93c7f5cb875a1950fd73642d0ebb3590&lt;/sys_scope&gt;
+        &lt;sys_update_name&gt;sys_hub_flow_677b20a947be551096fcb777746d434b&lt;/sys_update_name&gt;
+        &lt;sys_updated_by&gt;bcone&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2022-10-28 07:27:14&lt;/sys_updated_on&gt;
+        &lt;type&gt;flow&lt;/type&gt;
+    &lt;/sys_hub_flow&gt;
+    &lt;sys_translated_text action="delete_multiple" query="documentkey=677b20a947be551096fcb777746d434b"/&gt;
+    &lt;sys_variable_value action="delete_multiple" query="document_key=677b20a947be551096fcb777746d434b"/&gt;
+    &lt;sys_flow_timer_trigger action="INSERT_OR_UPDATE"&gt;
+        &lt;active&gt;true&lt;/active&gt;
+        &lt;day_of_month&gt;1&lt;/day_of_month&gt;
+        &lt;day_of_week/&gt;
+        &lt;name/&gt;
+        &lt;run_period/&gt;
+        &lt;run_start&gt;2022-10-27 16:00:00&lt;/run_start&gt;
+        &lt;sys_class_name&gt;sys_flow_timer_trigger&lt;/sys_class_name&gt;
+        &lt;sys_created_by&gt;bcone&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2022-10-27 07:10:05&lt;/sys_created_on&gt;
+        &lt;sys_domain&gt;global&lt;/sys_domain&gt;
+        &lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;
+        &lt;sys_id&gt;66c9d1e94772951096fcb777746d434d&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;
+        &lt;sys_overrides/&gt;
+        &lt;sys_scope display_value="Primary Data Integration with SAP"&gt;93c7f5cb875a1950fd73642d0ebb3590&lt;/sys_scope&gt;
+        &lt;sys_updated_by&gt;bcone&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2022-10-27 07:10:05&lt;/sys_updated_on&gt;
+        &lt;time/&gt;
+        &lt;timer_type&gt;0&lt;/timer_type&gt;
+    &lt;/sys_flow_timer_trigger&gt;
+    &lt;sys_flow_trigger_auto_script action="delete_multiple" query="name=Trigger:66c9d1e94772951096fcb777746d434d^sys_idNOT INeac9d1e94772951096fcb777746d434d"/&gt;
+    &lt;sys_flow_trigger_auto_script action="INSERT_OR_UPDATE"&gt;
+        &lt;active&gt;true&lt;/active&gt;
+        &lt;business_calendar/&gt;
+        &lt;condition/&gt;
+        &lt;conditional&gt;false&lt;/conditional&gt;
+        &lt;entered_time/&gt;
+        &lt;name&gt;Trigger:66c9d1e94772951096fcb777746d434d&lt;/name&gt;
+        &lt;offset/&gt;
+        &lt;offset_type&gt;0&lt;/offset_type&gt;
+        &lt;run_as display_value=""&gt;f636896c479e511096fcb777746d43c6&lt;/run_as&gt;
+        &lt;run_as_tz/&gt;
+        &lt;run_dayofmonth&gt;1&lt;/run_dayofmonth&gt;
+        &lt;run_dayofweek/&gt;
+        &lt;run_period/&gt;
+        &lt;run_start&gt;2022-10-27 16:00:00&lt;/run_start&gt;
+        &lt;run_time/&gt;
+        &lt;run_type&gt;once&lt;/run_type&gt;
+        &lt;script&gt;&lt;![CDATA[sn_flow_trigger.FlowTriggerAPI.fireTimerTrigger('66c9d1e94772951096fcb777746d434d');]]&gt;&lt;/script&gt;
+        &lt;sys_class_name&gt;sys_flow_trigger_auto_script&lt;/sys_class_name&gt;
+        &lt;sys_created_by&gt;bcone&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2022-10-27 07:10:05&lt;/sys_created_on&gt;
+        &lt;sys_id&gt;eac9d1e94772951096fcb777746d434d&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;
+        &lt;sys_name/&gt;
+        &lt;sys_package/&gt;
+        &lt;sys_policy/&gt;
+        &lt;sys_scope display_value="Primary Data Integration with SAP"&gt;93c7f5cb875a1950fd73642d0ebb3590&lt;/sys_scope&gt;
+        &lt;sys_update_name/&gt;
+        &lt;sys_updated_by&gt;bcone&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2022-10-27 07:10:05&lt;/sys_updated_on&gt;
+        &lt;time_zone/&gt;
+        &lt;trigger display_value=""&gt;66c9d1e94772951096fcb777746d434d&lt;/trigger&gt;
+        &lt;upgrade_safe&gt;true&lt;/upgrade_safe&gt;
+    &lt;/sys_flow_trigger_auto_script&gt;
+    &lt;sys_trigger_runner_mapping action="delete_multiple" query="identifier=677b20a947be551096fcb777746d434b"/&gt;
+    &lt;sys_hub_trigger_instance action="delete_multiple" query="flow=677b20a947be551096fcb777746d434b^sys_idNOT IN39aca8e947be551096fcb777746d433c"/&gt;
+    &lt;sys_hub_trigger_instance action="INSERT_OR_UPDATE"&gt;
+        &lt;comment/&gt;
+        &lt;display_text/&gt;
+        &lt;flow display_value="Test Ledger Account data"&gt;677b20a947be551096fcb777746d434b&lt;/flow&gt;
+        &lt;name&gt;Run Once&lt;/name&gt;
+        &lt;remote_sys_id/&gt;
+        &lt;sys_created_by&gt;bcone&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2022-10-27 03:52:53&lt;/sys_created_on&gt;
+        &lt;sys_id&gt;39aca8e947be551096fcb777746d433c&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;10&lt;/sys_mod_count&gt;
+        &lt;sys_scope/&gt;
+        &lt;sys_updated_by&gt;bcone&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2022-10-28 07:27:13&lt;/sys_updated_on&gt;
+        &lt;trigger_definition display_value="Run Once"&gt;0a76e504c32222002841b63b12d3aeac&lt;/trigger_definition&gt;
+        &lt;trigger_inputs/&gt;
+        &lt;trigger_outputs/&gt;
+        &lt;trigger_type&gt;run_once&lt;/trigger_type&gt;
+    &lt;/sys_hub_trigger_instance&gt;
+    &lt;sys_variable_value action="delete_multiple" query="document_key=39aca8e947be551096fcb777746d433c"/&gt;
+    &lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;
+        &lt;document&gt;sys_hub_trigger_instance&lt;/document&gt;
+        &lt;document_key&gt;39aca8e947be551096fcb777746d433c&lt;/document_key&gt;
+        &lt;order&gt;100&lt;/order&gt;
+        &lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;
+        &lt;sys_created_by&gt;bcone&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2022-10-27 04:01:27&lt;/sys_created_on&gt;
+        &lt;sys_id&gt;679e64ad47be551096fcb777746d43c8&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;
+        &lt;sys_updated_by&gt;bcone&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2022-10-27 04:01:27&lt;/sys_updated_on&gt;
+        &lt;value&gt;2022-10-27 09:00:00&lt;/value&gt;
+        &lt;variable display_value="Run in"&gt;92afcd94c32222002841b63b12d3aee8&lt;/variable&gt;
+    &lt;/sys_variable_value&gt;
+    &lt;sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_trigger_input_0a76e504c32222002841b63b12d3aeac^id=39aca8e947be551096fcb777746d433c"/&gt;
+    &lt;sys_hub_flow_stage action="delete_multiple" query="flow=677b20a947be551096fcb777746d434b"/&gt;
+    &lt;sys_flow_cat_variable_model action="delete_multiple" query="id=677b20a947be551096fcb777746d434b^sys_idNOT IN6f7b20a947be551096fcb777746d434b"/&gt;
+    &lt;sys_flow_cat_variable_model action="INSERT_OR_UPDATE"&gt;
+        &lt;id&gt;677b20a947be551096fcb777746d434b&lt;/id&gt;
+        &lt;name&gt;Test Ledger Account data&lt;/name&gt;
+        &lt;sys_created_by&gt;bcone&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2022-10-27 03:47:49&lt;/sys_created_on&gt;
+        &lt;sys_id&gt;6f7b20a947be551096fcb777746d434b&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;
+        &lt;sys_scope/&gt;
+        &lt;sys_updated_by&gt;bcone&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2022-10-27 03:47:49&lt;/sys_updated_on&gt;
+    &lt;/sys_flow_cat_variable_model&gt;
+    &lt;sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=6f7b20a947be551096fcb777746d434b"/&gt;
+    &lt;sys_hub_flow_input action="delete_multiple" query="model=677b20a947be551096fcb777746d434b"/&gt;
+    &lt;sys_hub_flow_output action="delete_multiple" query="model=677b20a947be551096fcb777746d434b"/&gt;
+    &lt;sys_hub_alias_mapping action="delete_multiple" query="source_id=677b20a947be551096fcb777746d434b"/&gt;
+    &lt;sys_hub_action_instance action="delete_multiple" query="flow=677b20a947be551096fcb777746d434b^sys_idNOT IN5fd66e7d47b6d51096fcb777746d43f6,b6d66e7d47b6d51096fcb777746d43db"/&gt;
+    &lt;sys_hub_action_instance action="INSERT_OR_UPDATE"&gt;
+        &lt;action_inputs/&gt;
+        &lt;action_inputs/&gt;
+        &lt;action_type display_value="Copy of Parse_RFC_Response"&gt;bd5b6e7847b2d11096fcb777746d434f&lt;/action_type&gt;
+        &lt;action_type_parent/&gt;
+        &lt;comment/&gt;
+        &lt;display_text/&gt;
+        &lt;flow display_value="Test Ledger Account data"&gt;677b20a947be551096fcb777746d434b&lt;/flow&gt;
+        &lt;order&gt;3&lt;/order&gt;
+        &lt;parent_ui_id&gt;54bc7994-af8f-42ef-945c-0aa209072793&lt;/parent_ui_id&gt;
+        &lt;sys_class_name&gt;sys_hub_action_instance&lt;/sys_class_name&gt;
+        &lt;sys_created_by&gt;bcone&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2022-10-28 07:25:18&lt;/sys_created_on&gt;
+        &lt;sys_id&gt;5fd66e7d47b6d51096fcb777746d43f6&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;4&lt;/sys_mod_count&gt;
+        &lt;sys_scope display_value="Primary Data Integration with SAP"&gt;93c7f5cb875a1950fd73642d0ebb3590&lt;/sys_scope&gt;
+        &lt;sys_updated_by&gt;bcone&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2022-10-28 07:27:14&lt;/sys_updated_on&gt;
+        &lt;ui_id&gt;1a72196a-a586-4ed8-8228-0c16fbd8b94b&lt;/ui_id&gt;
+    &lt;/sys_hub_action_instance&gt;
+    &lt;sys_variable_value action="delete_multiple" query="document_key=5fd66e7d47b6d51096fcb777746d43f6"/&gt;
+    &lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;
+        &lt;document&gt;sys_hub_action_instance&lt;/document&gt;
+        &lt;document_key&gt;5fd66e7d47b6d51096fcb777746d43f6&lt;/document_key&gt;
+        &lt;order&gt;2&lt;/order&gt;
+        &lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;
+        &lt;sys_created_by&gt;bcone&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2022-10-28 07:25:18&lt;/sys_created_on&gt;
+        &lt;sys_id&gt;57d66e7d47b6d51096fcb777746d43f8&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;
+        &lt;sys_updated_by&gt;bcone&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2022-10-28 07:25:18&lt;/sys_updated_on&gt;
+        &lt;value&gt;,﻿&lt;/value&gt;
+        &lt;variable display_value="Delimiter"&gt;4e5b6e7847b2d11096fcb777746d435a&lt;/variable&gt;
+    &lt;/sys_variable_value&gt;
+    &lt;sys_element_mapping action="delete_multiple" query="id=5fd66e7d47b6d51096fcb777746d43f6"/&gt;
+    &lt;sys_element_mapping action="INSERT_OR_UPDATE"&gt;
+        &lt;field&gt;deli&lt;/field&gt;
+        &lt;id&gt;5fd66e7d47b6d51096fcb777746d43f6&lt;/id&gt;
+        &lt;sys_created_by&gt;bcone&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2022-10-28 07:25:18&lt;/sys_created_on&gt;
+        &lt;sys_id&gt;13d66e7d47b6d51096fcb777746d43f8&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;
+        &lt;sys_updated_by&gt;bcone&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2022-10-28 07:25:18&lt;/sys_updated_on&gt;
+        &lt;table&gt;var__m_sys_hub_action_input_bd5b6e7847b2d11096fcb777746d434f&lt;/table&gt;
+        &lt;value/&gt;
+    &lt;/sys_element_mapping&gt;
+    &lt;sys_element_mapping action="INSERT_OR_UPDATE"&gt;
+        &lt;field&gt;json_string&lt;/field&gt;
+        &lt;id&gt;5fd66e7d47b6d51096fcb777746d43f6&lt;/id&gt;
+        &lt;sys_created_by&gt;bcone&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2022-10-28 07:25:18&lt;/sys_created_on&gt;
+        &lt;sys_id&gt;d3d66e7d47b6d51096fcb777746d43f8&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;
+        &lt;sys_updated_by&gt;bcone&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2022-10-28 07:25:18&lt;/sys_updated_on&gt;
+        &lt;table&gt;var__m_sys_hub_action_input_bd5b6e7847b2d11096fcb777746d434f&lt;/table&gt;
+        &lt;value&gt;{{04964d75-f2fb-4b52-8f3c-e31bbb8a92cf.output}}&lt;/value&gt;
+    &lt;/sys_element_mapping&gt;
+    &lt;sys_hub_input_scripts action="delete_multiple" query="instance=5fd66e7d47b6d51096fcb777746d43f6"/&gt;
+    &lt;sys_hub_alias_mapping action="delete_multiple" query="source_id=5fd66e7d47b6d51096fcb777746d43f6"/&gt;
+    &lt;sys_hub_action_instance action="INSERT_OR_UPDATE"&gt;
+        &lt;action_inputs/&gt;
+        &lt;action_type display_value="Execute RFC"&gt;878053f3c7043010678d208c95c26025&lt;/action_type&gt;
+        &lt;action_type_parent/&gt;
+        &lt;comment/&gt;
+        &lt;display_text/&gt;
+        &lt;flow display_value="Test Ledger Account data"&gt;677b20a947be551096fcb777746d434b&lt;/flow&gt;
+        &lt;order&gt;1&lt;/order&gt;
+        &lt;parent_ui_id/&gt;
+        &lt;sys_class_name&gt;sys_hub_action_instance&lt;/sys_class_name&gt;
+        &lt;sys_created_by&gt;bcone&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2022-10-28 07:25:16&lt;/sys_created_on&gt;
+        &lt;sys_id&gt;b6d66e7d47b6d51096fcb777746d43db&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;4&lt;/sys_mod_count&gt;
+        &lt;sys_scope display_value="Primary Data Integration with SAP"&gt;93c7f5cb875a1950fd73642d0ebb3590&lt;/sys_scope&gt;
+        &lt;sys_updated_by&gt;bcone&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2022-10-28 07:27:13&lt;/sys_updated_on&gt;
+        &lt;ui_id&gt;04964d75-f2fb-4b52-8f3c-e31bbb8a92cf&lt;/ui_id&gt;
+    &lt;/sys_hub_action_instance&gt;
+    &lt;sys_variable_value action="delete_multiple" query="document_key=b6d66e7d47b6d51096fcb777746d43db"/&gt;
+    &lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;
+        &lt;document&gt;sys_hub_action_instance&lt;/document&gt;
+        &lt;document_key&gt;b6d66e7d47b6d51096fcb777746d43db&lt;/document_key&gt;
+        &lt;order&gt;1&lt;/order&gt;
+        &lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;
+        &lt;sys_created_by&gt;bcone&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2022-10-28 07:25:17&lt;/sys_created_on&gt;
+        &lt;sys_id&gt;03d66e7d47b6d51096fcb777746d43df&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;
+        &lt;sys_updated_by&gt;bcone&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2022-10-28 07:25:17&lt;/sys_updated_on&gt;
+        &lt;value&gt;d0578871dbad8010ea4494d9db9619d9&lt;/value&gt;
+        &lt;variable display_value="Connection Alias"&gt;4b8053f3c7043010678d208c95c26026&lt;/variable&gt;
+    &lt;/sys_variable_value&gt;
+    &lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;
+        &lt;document&gt;sys_hub_action_instance&lt;/document&gt;
+        &lt;document_key&gt;b6d66e7d47b6d51096fcb777746d43db&lt;/document_key&gt;
+        &lt;order&gt;5&lt;/order&gt;
+        &lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;
+        &lt;sys_created_by&gt;bcone&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2022-10-28 07:25:17&lt;/sys_created_on&gt;
+        &lt;sys_id&gt;4bd66e7d47b6d51096fcb777746d43de&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;
+        &lt;sys_updated_by&gt;bcone&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2022-10-28 07:25:17&lt;/sys_updated_on&gt;
+        &lt;value&gt;{"children":[{"children":[{"name":"TYPE","label":"TYPE","type":"string"},{"name":"ID","label":"ID","type":"string"},{"name":"NUMBER","label":"NUMBER","type":"string"},{"name":"MESSAGE","label":"MESSAGE","type":"string"},{"name":"LOG_NO","label":"LOG_NO","type":"string"},{"name":"LOG_MSG_NO","label":"LOG_MSG_NO","type":"string"},{"name":"MESSAGE_V1","label":"MESSAGE_V1","type":"string"},{"name":"MESSAGE_V2","label":"MESSAGE_V2","type":"string"},{"name":"MESSAGE_V3","label":"MESSAGE_V3","type":"string"},{"name":"MESSAGE_V4","label":"MESSAGE_V4","type":"string"},{"name":"PARAMETER","label":"PARAMETER","type":"string"},{"name":"ROW","label":"ROW","type":"integer"},{"name":"FIELD","label":"FIELD","type":"string"},{"name":"SYSTEM","label":"SYSTEM","type":"string"}],"name":"ET_RETURN","attributes":{"child_type":"object"},"label":"Return table [ ET_RETURN ]","type":"array.object"},{"children":[{"name":"WA","label":"Application data [ WA ]","type":"string"},{"name":"WA1","label":"Application data [ WA1 ]","type":"string"},{"name":"WA2","label":"Application data [ WA2 ]","type":"string"},{"name":"WA3","label":"Application data [ WA3 ]","type":"string"},{"name":"WA4","label":"Application data [ WA4 ]","type":"string"},{"name":"WA5","label":"Application data [ WA5 ]","type":"string"},{"name":"WA6","label":"Application data [ WA6 ]","type":"string"},{"name":"WA7","label":"Application data [ WA7 ]","type":"string"},{"name":"WA8","label":"Application data [ WA8 ]","type":"string"},{"name":"WA9","label":"Application data [ WA9 ]","type":"string"},{"name":"WA10","label":"Application data [ WA10 ]","type":"string"},{"name":"WA11","label":"Application data [ WA11 ]","type":"string"},{"name":"WA12","label":"Application data [ WA12 ]","type":"string"},{"name":"WA13","label":"Application data [ WA13 ]","type":"string"},{"name":"WA14","label":"Application data [ WA14 ]","type":"string"},{"name":"WA15","label":"Application data [ WA15 ]","type":"string"},{"name":"WA16","label":"Application data [ WA16 ]","type":"string"},{"name":"WA17","label":"Application data [ WA17 ]","type":"string"},{"name":"WA18","label":"Application data [ WA18 ]","type":"string"},{"name":"WA19","label":"Application data [ WA19 ]","type":"string"},{"name":"WA20","label":"Application data [ WA20 ]","type":"string"},{"name":"WA21","label":"Application data [ WA21 ]","type":"string"},{"name":"WA22","label":"Application data [ WA22 ]","type":"string"},{"name":"WA23","label":"Application data [ WA23 ]","type":"string"},{"name":"WA24","label":"Application data [ WA24 ]","type":"string"},{"name":"WA25","label":"Application data [ WA25 ]","type":"string"},{"name":"WA26","label":"Application data [ WA26 ]","type":"string"},{"name":"WA27","label":"Application data [ WA27 ]","type":"string"},{"name":"WA28","label":"Application data [ WA28 ]","type":"string"},{"name":"WA29","label":"Application data [ WA29 ]","type":"string"},{"name":"WA30","label":"Application data [ WA30 ]","type":"string"}],"name":"IT_DATA","attributes":{"child_type":"object"},"label":"Search Result Format: 8000-Byte Field [ IT_DATA ]","type":"array.object"},{"children":[{"name":"FIELDNAME","label":"Field Name","type":"string"},{"name":"OFFSET","label":"Offset of a field","type":"string"},{"name":"LENGTH","label":"No of Characters","type":"string"},{"name":"TYPE","label":"ABAP type","type":"string"},{"name":"FIELDTEXT","label":"Short Description","type":"string"}],"name":"IT_FIELDS","attributes":{"child_type":"object"},"label":"RFC Table Read: Description of Fields to Retrieve [ IT_FIELDS ]","type":"array.object"},{"children":[{"name":"TEXT","label":"Text field","type":"string"}],"name":"IT_OPTIONS","attributes":{"child_type":"object"},"label":"RFC Table Read: Select Options / WHERE Clause [ IT_OPTIONS ]","type":"array.object"}],"type":"object","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","dynamic":"true","uiUniqueId":"ec3feb55-c033-40de-b020-c5065f65edc0"}}&lt;/value&gt;
+        &lt;variable display_value="Response"&gt;078053f3c7043010678d208c95c26045&lt;/variable&gt;
+    &lt;/sys_variable_value&gt;
+    &lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;
+        &lt;document&gt;sys_hub_action_instance&lt;/document&gt;
+        &lt;document_key&gt;b6d66e7d47b6d51096fcb777746d43db&lt;/document_key&gt;
+        &lt;order&gt;3&lt;/order&gt;
+        &lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;
+        &lt;sys_created_by&gt;bcone&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2022-10-28 07:25:17&lt;/sys_created_on&gt;
+        &lt;sys_id&gt;87d66e7d47b6d51096fcb777746d43df&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;
+        &lt;sys_updated_by&gt;bcone&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2022-10-28 07:27:13&lt;/sys_updated_on&gt;
+        &lt;value&gt;IV_QUERY_TABLE=SKB1^IV_DELIMITER=,﻿^IV_ROWCOUNT=2&lt;/value&gt;
+        &lt;variable display_value="Import and Changing Tab Inputs"&gt;878053f3c7043010678d208c95c26037&lt;/variable&gt;
+    &lt;/sys_variable_value&gt;
+    &lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;
+        &lt;document&gt;sys_hub_action_instance&lt;/document&gt;
+        &lt;document_key&gt;b6d66e7d47b6d51096fcb777746d43db&lt;/document_key&gt;
+        &lt;order&gt;2&lt;/order&gt;
+        &lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;
+        &lt;sys_created_by&gt;bcone&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2022-10-28 07:25:17&lt;/sys_created_on&gt;
+        &lt;sys_id&gt;c3d66e7d47b6d51096fcb777746d43df&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;
+        &lt;sys_updated_by&gt;bcone&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2022-10-28 07:25:17&lt;/sys_updated_on&gt;
+        &lt;value&gt;99d0c7f54756d51096fcb777746d43ca&lt;/value&gt;
+        &lt;variable display_value="RFC"&gt;478053f3c7043010678d208c95c2602f&lt;/variable&gt;
+    &lt;/sys_variable_value&gt;
+    &lt;sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_action_input_878053f3c7043010678d208c95c26025^id=b6d66e7d47b6d51096fcb777746d43db"/&gt;
+    &lt;sys_hub_input_scripts action="delete_multiple" query="instance=b6d66e7d47b6d51096fcb777746d43db"/&gt;
+    &lt;sys_hub_alias_mapping action="delete_multiple" query="source_id=b6d66e7d47b6d51096fcb777746d43db"/&gt;
+    &lt;sys_hub_sub_flow_instance action="delete_multiple" query="flow=677b20a947be551096fcb777746d434b"/&gt;
+    &lt;sys_hub_flow_logic action="delete_multiple" query="flow=677b20a947be551096fcb777746d434b^sys_idNOT INc7d66e7d47b6d51096fcb777746d43e0"/&gt;
+    &lt;sys_hub_flow_logic action="INSERT_OR_UPDATE"&gt;
+        &lt;block display_value=""&gt;0fd66e7d47b6d51096fcb777746d43df&lt;/block&gt;
+        &lt;comment/&gt;
+        &lt;connected_to/&gt;
+        &lt;decision_table/&gt;
+        &lt;decision_table_inputs/&gt;
+        &lt;display_text/&gt;
+        &lt;extended_inputs/&gt;
+        &lt;flow display_value="Test Ledger Account data"&gt;677b20a947be551096fcb777746d434b&lt;/flow&gt;
+        &lt;flow_variable/&gt;
+        &lt;flow_variables_assigned/&gt;
+        &lt;inputs/&gt;
+        &lt;inputs/&gt;
+        &lt;logic_definition display_value="If"&gt;af4e1945c3e232002841b63b12d3ae3e&lt;/logic_definition&gt;
+        &lt;order&gt;2&lt;/order&gt;
+        &lt;outputs_assigned/&gt;
+        &lt;outputs_to_assign/&gt;
+        &lt;parent_ui_id/&gt;
+        &lt;sys_class_name&gt;sys_hub_flow_logic&lt;/sys_class_name&gt;
+        &lt;sys_created_by&gt;bcone&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2022-10-28 07:25:17&lt;/sys_created_on&gt;
+        &lt;sys_id&gt;c7d66e7d47b6d51096fcb777746d43e0&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;2&lt;/sys_mod_count&gt;
+        &lt;sys_scope display_value="Primary Data Integration with SAP"&gt;93c7f5cb875a1950fd73642d0ebb3590&lt;/sys_scope&gt;
+        &lt;sys_updated_by&gt;bcone&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2022-10-28 07:27:14&lt;/sys_updated_on&gt;
+        &lt;ui_id&gt;54bc7994-af8f-42ef-945c-0aa209072793&lt;/ui_id&gt;
+        &lt;workflow_inputs/&gt;
+        &lt;workflow_reference/&gt;
+    &lt;/sys_hub_flow_logic&gt;
+    &lt;sys_variable_value action="delete_multiple" query="document_key=c7d66e7d47b6d51096fcb777746d43e0"/&gt;
+    &lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;
+        &lt;document&gt;sys_hub_flow_logic&lt;/document&gt;
+        &lt;document_key&gt;c7d66e7d47b6d51096fcb777746d43e0&lt;/document_key&gt;
+        &lt;order&gt;10&lt;/order&gt;
+        &lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;
+        &lt;sys_created_by&gt;bcone&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2022-10-28 07:25:17&lt;/sys_created_on&gt;
+        &lt;sys_id&gt;cfd66e7d47b6d51096fcb777746d43e3&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;
+        &lt;sys_updated_by&gt;bcone&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2022-10-28 07:25:17&lt;/sys_updated_on&gt;
+        &lt;value&gt;Execute RFC is successful&lt;/value&gt;
+        &lt;variable display_value="Condition Label"&gt;f0af19c1c32632002841b63b12d3aea3&lt;/variable&gt;
+    &lt;/sys_variable_value&gt;
+    &lt;sys_element_mapping action="delete_multiple" query="id=c7d66e7d47b6d51096fcb777746d43e0"/&gt;
+    &lt;sys_element_mapping action="INSERT_OR_UPDATE"&gt;
+        &lt;field&gt;condition&lt;/field&gt;
+        &lt;id&gt;c7d66e7d47b6d51096fcb777746d43e0&lt;/id&gt;
+        &lt;sys_created_by&gt;bcone&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2022-10-28 07:25:17&lt;/sys_created_on&gt;
+        &lt;sys_id&gt;4fd66e7d47b6d51096fcb777746d43e3&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;
+        &lt;sys_updated_by&gt;bcone&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2022-10-28 07:25:17&lt;/sys_updated_on&gt;
+        &lt;table&gt;var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e&lt;/table&gt;
+        &lt;value&gt;{{04964d75-f2fb-4b52-8f3c-e31bbb8a92cf.status}}=success&lt;/value&gt;
+    &lt;/sys_element_mapping&gt;
+    &lt;sys_element_mapping action="INSERT_OR_UPDATE"&gt;
+        &lt;field&gt;condition_name&lt;/field&gt;
+        &lt;id&gt;c7d66e7d47b6d51096fcb777746d43e0&lt;/id&gt;
+        &lt;sys_created_by&gt;bcone&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2022-10-28 07:25:17&lt;/sys_created_on&gt;
+        &lt;sys_id&gt;8bd66e7d47b6d51096fcb777746d43e3&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;
+        &lt;sys_updated_by&gt;bcone&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2022-10-28 07:25:17&lt;/sys_updated_on&gt;
+        &lt;table&gt;var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e&lt;/table&gt;
+        &lt;value/&gt;
+    &lt;/sys_element_mapping&gt;
+    &lt;sys_hub_flow_logic_ext_input action="delete_multiple" query="model=c7d66e7d47b6d51096fcb777746d43e0"/&gt;
+    &lt;sys_hub_input_scripts action="delete_multiple" query="instance=c7d66e7d47b6d51096fcb777746d43e0"/&gt;
+    &lt;sys_hub_pill_compound action="delete_multiple" query="attached_to=677b20a947be551096fcb777746d434b"/&gt;
+    &lt;sys_hub_flow_variable action="delete_multiple" query="model=677b20a947be551096fcb777746d434b"/&gt;
+    &lt;sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_677b20a947be551096fcb777746d434b"/&gt;
+    &lt;sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_677b20a947be551096fcb777746d434b"/&gt;
+    &lt;sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_677b20a947be551096fcb777746d434b"/&gt;
+    &lt;sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_677b20a947be551096fcb777746d434b"/&gt;
+    &lt;sys_flow_trigger_plan action="delete_multiple" query="plan_id=677b20a947be551096fcb777746d434b^sys_idNOT IN72c9d1e94772951096fcb777746d4350"/&gt;
+    &lt;sys_flow_trigger_plan action="INSERT_OR_UPDATE"&gt;
+        &lt;binding_strategy&gt;com.snc.process_flow.engine.binding.RunAlways&lt;/binding_strategy&gt;
+        &lt;plan&gt;{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_trigger_plan","id":"72c9d1e94772951096fcb777746d4350","name":"plan","plan_signature":null}}&lt;/plan&gt;
+        &lt;plan_id&gt;677b20a947be551096fcb777746d434b&lt;/plan_id&gt;
+        &lt;snapshot&gt;6823936147ba5d1086887562846d43d7&lt;/snapshot&gt;
+        &lt;sys_created_by&gt;bcone&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2022-10-27 07:10:06&lt;/sys_created_on&gt;
+        &lt;sys_domain&gt;global&lt;/sys_domain&gt;
+        &lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;
+        &lt;sys_id&gt;72c9d1e94772951096fcb777746d4350&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;
+        &lt;sys_overrides/&gt;
+        &lt;sys_scope/&gt;
+        &lt;sys_updated_by&gt;bcone&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2022-10-27 07:10:06&lt;/sys_updated_on&gt;
+        &lt;trigger display_value=""&gt;66c9d1e94772951096fcb777746d434d&lt;/trigger&gt;
+    &lt;/sys_flow_trigger_plan&gt;
+    &lt;sys_flow_subflow_plan action="delete_multiple" query="plan_id=677b20a947be551096fcb777746d434b"/&gt;
+    &lt;sys_hub_flow_snapshot action="INSERT_OR_UPDATE"&gt;
+        &lt;access&gt;public&lt;/access&gt;
+        &lt;acls/&gt;
+        &lt;active&gt;true&lt;/active&gt;
+        &lt;annotation/&gt;
+        &lt;callable_by_client_api&gt;false&lt;/callable_by_client_api&gt;
+        &lt;category/&gt;
+        &lt;copied_from/&gt;
+        &lt;copied_from_name/&gt;
+        &lt;description/&gt;
+        &lt;internal_name&gt;test_ledger_account_data&lt;/internal_name&gt;
+        &lt;label_cache&gt;[{"name":"78e3435a-e827-4d8d-a601-6757638e46f8.__dont_treat_as_error__","label":"3 - Copy of Parse_RFC_Response➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiTypeLabel":"True/False","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true","uiUniqueId":"0b918dd2-4aeb-4bf6-b06e-83d3b4e98e93"}},{"name":"78e3435a-e827-4d8d-a601-6757638e46f8.__action_status__","label":"3 - Copy of Parse_RFC_Response➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiTypeLabel":"Object","co_type_name":"FDd25b6e788ab2d11022241719733b467c","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true","uiUniqueId":"d12f1232-cf85-4627-95bf-540799baf9fd"}},{"name":"78e3435a-e827-4d8d-a601-6757638e46f8.json_array","label":"3 - Copy of Parse_RFC_Response➛Json array","reference_display":"Json array","type":"array.string","base_type":"array.string","attributes":{"uiTypeLabel":"Array.String","co_type_name":"FDce5b6e7827b2d11050a58def7e6a2a79","child_label":"Json_array_obj","child_type_label":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"array.string","child_type":"string","child_name":"Json_array_obj","child_uiUniqueId":"26c7fe1f-0bf2-4ca2-b23c-223c139d7829","uiUniqueId":"4a462491-f357-4b32-a56a-6f38798c3ad3"}},{"name":"b209c97c-3ee8-4191-b192-fbe6c583454d.__dont_treat_as_error__","label":"3 - Parse_RFC_Response➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiTypeLabel":"True/False","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true","uiUniqueId":"0b918dd2-4aeb-4bf6-b06e-83d3b4e98e93"}},{"name":"b209c97c-3ee8-4191-b192-fbe6c583454d.__action_status__","label":"3 - Parse_RFC_Response➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiTypeLabel":"Object","co_type_name":"FD575c7ab13c56d51028a081482d93ba6e","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true","uiUniqueId":"d12f1232-cf85-4627-95bf-540799baf9fd"}},{"name":"b209c97c-3ee8-4191-b192-fbe6c583454d.json_array","label":"3 - Parse_RFC_Response➛Json array","reference_display":"Json array","type":"array.string","base_type":"array.string","attributes":{"uiTypeLabel":"Array.String","co_type_name":"FD935c7ab1e356d5101cb326721344486c","child_label":"Json_array_obj","child_type_label":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"array.string","child_type":"string","child_name":"Json_array_obj","child_uiUniqueId":"26c7fe1f-0bf2-4ca2-b23c-223c139d7829","uiUniqueId":"4a462491-f357-4b32-a56a-6f38798c3ad3"}},{"name":"fcbb9829-8df9-47ab-a52d-83e3d1662292.__dont_treat_as_error__","label":"3 - Parse_RFC_Response➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiTypeLabel":"True/False","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true","uiUniqueId":"0b918dd2-4aeb-4bf6-b06e-83d3b4e98e93"}},{"name":"fcbb9829-8df9-47ab-a52d-83e3d1662292.__action_status__","label":"3 - Parse_RFC_Response➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiTypeLabel":"Object","co_type_name":"FD575c7ab13c56d51028a081482d93ba6e","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true","uiUniqueId":"d12f1232-cf85-4627-95bf-540799baf9fd"}},{"name":"fcbb9829-8df9-47ab-a52d-83e3d1662292.json_array","label":"3 - Parse_RFC_Response➛Json array","reference_display":"Json array","type":"array.string","base_type":"array.string","attributes":{"uiTypeLabel":"Array.String","co_type_name":"FD935c7ab1e356d5101cb326721344486c","child_label":"Json_array_obj","child_type_label":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"array.string","child_type":"string","child_name":"Json_array_obj","child_uiUniqueId":"26c7fe1f-0bf2-4ca2-b23c-223c139d7829","uiUniqueId":"4a462491-f357-4b32-a56a-6f38798c3ad3"}},{"name":"d144c0dd-92d8-4937-9912-2502b2601099.__dont_treat_as_error__","label":"1 - Execute RFC➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiTypeLabel":"True/False","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true","uiUniqueId":"0106b8ba-b8e7-4190-952f-e25862d919f4"}},{"name":"d144c0dd-92d8-4937-9912-2502b2601099.__action_status__","label":"1 - Execute RFC➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiTypeLabel":"Object","co_type_name":"FD840763bca9ba9910755ead1f372a1d58","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true","uiUniqueId":"fbc20c78-5e59-42ca-a81b-a51060512856"}},{"name":"d144c0dd-92d8-4937-9912-2502b2601099.err","label":"1 - Execute RFC➛Error Message","reference_display":"Error Message","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"8fb55a2b-1b65-43aa-b9d2-242ee67e399c"}},{"name":"d144c0dd-92d8-4937-9912-2502b2601099.status","label":"1 - Execute RFC➛Status","reference_display":"Status","type":"choice","base_type":"choice","choices":[{"label":"Success","value":"success","order":0.0},{"label":"Error","value":"error","order":1.0}],"attributes":{"uiType":"choice","uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"be013fc8-8a66-424c-a986-bc6c2270b27c"}},{"name":"d144c0dd-92d8-4937-9912-2502b2601099.output","label":"1 - Execute RFC➛Response","reference_display":"Response","type":"dynamic_object","base_type":"dynamic_object","attributes":{"dynamic":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"ec3feb55-c033-40de-b020-c5065f65edc0"}}]&lt;/label_cache&gt;
+        &lt;master&gt;true&lt;/master&gt;
+        &lt;name&gt;Test Ledger Account data&lt;/name&gt;
+        &lt;natlang/&gt;
+        &lt;outputs/&gt;
+        &lt;parent_flow display_value="Test Ledger Account data"&gt;677b20a947be551096fcb777746d434b&lt;/parent_flow&gt;
+        &lt;remote_trigger_id/&gt;
+        &lt;run_as&gt;system&lt;/run_as&gt;
+        &lt;run_with_roles/&gt;
+        &lt;sc_callable&gt;false&lt;/sc_callable&gt;
+        &lt;status&gt;published&lt;/status&gt;
+        &lt;sys_class_name&gt;sys_hub_flow_snapshot&lt;/sys_class_name&gt;
+        &lt;sys_created_by&gt;bcone&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2022-10-27 07:09:58&lt;/sys_created_on&gt;
+        &lt;sys_domain&gt;global&lt;/sys_domain&gt;
+        &lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;
+        &lt;sys_id&gt;38c991e94772951096fcb777746d432b&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;
+        &lt;sys_name/&gt;
+        &lt;sys_overrides/&gt;
+        &lt;sys_package/&gt;
+        &lt;sys_policy/&gt;
+        &lt;sys_scope display_value="Primary Data Integration with SAP"&gt;93c7f5cb875a1950fd73642d0ebb3590&lt;/sys_scope&gt;
+        &lt;sys_update_name/&gt;
+        &lt;sys_updated_by&gt;bcone&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2022-10-27 07:09:58&lt;/sys_updated_on&gt;
+        &lt;type&gt;flow&lt;/type&gt;
+    &lt;/sys_hub_flow_snapshot&gt;
+    &lt;sys_translated_text action="delete_multiple" query="documentkey=38c991e94772951096fcb777746d432b"/&gt;
+    &lt;sys_variable_value action="delete_multiple" query="document_key=38c991e94772951096fcb777746d432b"/&gt;
+    &lt;sys_hub_trigger_instance action="delete_multiple" query="flow=38c991e94772951096fcb777746d432b^sys_idNOT IN2dc991e94772951096fcb777746d4391"/&gt;
+    &lt;sys_hub_trigger_instance action="INSERT_OR_UPDATE"&gt;
+        &lt;comment/&gt;
+        &lt;display_text/&gt;
+        &lt;flow display_value="Test Ledger Account data"&gt;38c991e94772951096fcb777746d432b&lt;/flow&gt;
+        &lt;name&gt;Run Once&lt;/name&gt;
+        &lt;remote_sys_id/&gt;
+        &lt;sys_created_by&gt;bcone&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2022-10-27 07:10:00&lt;/sys_created_on&gt;
+        &lt;sys_id&gt;2dc991e94772951096fcb777746d4391&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;2&lt;/sys_mod_count&gt;
+        &lt;sys_scope/&gt;
+        &lt;sys_updated_by&gt;bcone&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2022-10-27 07:10:06&lt;/sys_updated_on&gt;
+        &lt;trigger_definition display_value="Run Once"&gt;0a76e504c32222002841b63b12d3aeac&lt;/trigger_definition&gt;
+        &lt;trigger_inputs/&gt;
+        &lt;trigger_outputs/&gt;
+        &lt;trigger_type&gt;run_once&lt;/trigger_type&gt;
+    &lt;/sys_hub_trigger_instance&gt;
+    &lt;sys_variable_value action="delete_multiple" query="document_key=2dc991e94772951096fcb777746d4391"/&gt;
+    &lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;
+        &lt;document&gt;sys_hub_trigger_instance&lt;/document&gt;
+        &lt;document_key&gt;2dc991e94772951096fcb777746d4391&lt;/document_key&gt;
+        &lt;order&gt;100&lt;/order&gt;
+        &lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;
+        &lt;sys_created_by&gt;bcone&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2022-10-27 07:10:01&lt;/sys_created_on&gt;
+        &lt;sys_id&gt;a5c991e94772951096fcb777746d4392&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;
+        &lt;sys_updated_by&gt;bcone&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2022-10-27 07:10:01&lt;/sys_updated_on&gt;
+        &lt;value&gt;2022-10-27 09:00:00&lt;/value&gt;
+        &lt;variable display_value="Run in"&gt;92afcd94c32222002841b63b12d3aee8&lt;/variable&gt;
+    &lt;/sys_variable_value&gt;
+    &lt;sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_trigger_input_0a76e504c32222002841b63b12d3aeac^id=2dc991e94772951096fcb777746d4391"/&gt;
+    &lt;sys_hub_flow_stage action="delete_multiple" query="flow=38c991e94772951096fcb777746d432b"/&gt;
+    &lt;sys_flow_cat_variable_model action="delete_multiple" query="id=38c991e94772951096fcb777746d432b^sys_idNOT IN34c991e94772951096fcb777746d432c"/&gt;
+    &lt;sys_flow_cat_variable_model action="INSERT_OR_UPDATE"&gt;
+        &lt;id&gt;38c991e94772951096fcb777746d432b&lt;/id&gt;
+        &lt;name&gt;Test Ledger Account data&lt;/name&gt;
+        &lt;sys_created_by&gt;bcone&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2022-10-27 07:09:58&lt;/sys_created_on&gt;
+        &lt;sys_id&gt;34c991e94772951096fcb777746d432c&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;
+        &lt;sys_scope/&gt;
+        &lt;sys_updated_by&gt;bcone&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2022-10-27 07:09:58&lt;/sys_updated_on&gt;
+    &lt;/sys_flow_cat_variable_model&gt;
+    &lt;sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=34c991e94772951096fcb777746d432c"/&gt;
+    &lt;sys_hub_flow_input action="delete_multiple" query="model=38c991e94772951096fcb777746d432b"/&gt;
+    &lt;sys_hub_flow_output action="delete_multiple" query="model=38c991e94772951096fcb777746d432b"/&gt;
+    &lt;sys_hub_alias_mapping action="delete_multiple" query="source_id=38c991e94772951096fcb777746d432b"/&gt;
+    &lt;sys_hub_action_instance action="delete_multiple" query="flow=38c991e94772951096fcb777746d432b^sys_idNOT IN15c991e94772951096fcb777746d4390,95c991e94772951096fcb777746d436e"/&gt;
+    &lt;sys_hub_action_instance action="INSERT_OR_UPDATE"&gt;
+        &lt;action_inputs/&gt;
+        &lt;action_inputs/&gt;
+        &lt;action_type display_value="Copy of Parse_RFC_Response"&gt;bd5b6e7847b2d11096fcb777746d434f&lt;/action_type&gt;
+        &lt;action_type_parent display_value="Copy of Parse_RFC_Response"&gt;033b6a7847b2d11096fcb777746d4350&lt;/action_type_parent&gt;
+        &lt;comment/&gt;
+        &lt;display_text/&gt;
+        &lt;flow display_value="Test Ledger Account data"&gt;38c991e94772951096fcb777746d432b&lt;/flow&gt;
+        &lt;order&gt;3&lt;/order&gt;
+        &lt;parent_ui_id&gt;9c27f3e4-ab72-4316-a0f8-8b0b84439cde&lt;/parent_ui_id&gt;
+        &lt;sys_class_name&gt;sys_hub_action_instance&lt;/sys_class_name&gt;
+        &lt;sys_created_by&gt;bcone&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2022-10-27 07:10:00&lt;/sys_created_on&gt;
+        &lt;sys_id&gt;15c991e94772951096fcb777746d4390&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;2&lt;/sys_mod_count&gt;
+        &lt;sys_scope display_value="Primary Data Integration with SAP"&gt;93c7f5cb875a1950fd73642d0ebb3590&lt;/sys_scope&gt;
+        &lt;sys_updated_by&gt;bcone&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2022-10-27 07:10:00&lt;/sys_updated_on&gt;
+        &lt;ui_id&gt;78e3435a-e827-4d8d-a601-6757638e46f8&lt;/ui_id&gt;
+    &lt;/sys_hub_action_instance&gt;
+    &lt;sys_variable_value action="delete_multiple" query="document_key=15c991e94772951096fcb777746d4390"/&gt;
+    &lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;
+        &lt;document&gt;sys_hub_action_instance&lt;/document&gt;
+        &lt;document_key&gt;15c991e94772951096fcb777746d4390&lt;/document_key&gt;
+        &lt;order&gt;2&lt;/order&gt;
+        &lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;
+        &lt;sys_created_by&gt;bcone&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2022-10-27 07:10:00&lt;/sys_created_on&gt;
+        &lt;sys_id&gt;29c991e94772951096fcb777746d4391&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;
+        &lt;sys_updated_by&gt;bcone&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2022-10-27 07:10:00&lt;/sys_updated_on&gt;
+        &lt;value&gt;,﻿&lt;/value&gt;
+        &lt;variable display_value="Delimiter"&gt;4e5b6e7847b2d11096fcb777746d435a&lt;/variable&gt;
+    &lt;/sys_variable_value&gt;
+    &lt;sys_element_mapping action="delete_multiple" query="id=15c991e94772951096fcb777746d4390"/&gt;
+    &lt;sys_element_mapping action="INSERT_OR_UPDATE"&gt;
+        &lt;field&gt;deli&lt;/field&gt;
+        &lt;id&gt;15c991e94772951096fcb777746d4390&lt;/id&gt;
+        &lt;sys_created_by&gt;bcone&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2022-10-27 07:10:00&lt;/sys_created_on&gt;
+        &lt;sys_id&gt;d1c991e94772951096fcb777746d4391&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;
+        &lt;sys_updated_by&gt;bcone&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2022-10-27 07:10:00&lt;/sys_updated_on&gt;
+        &lt;table&gt;var__m_sys_hub_action_input_bd5b6e7847b2d11096fcb777746d434f&lt;/table&gt;
+        &lt;value/&gt;
+    &lt;/sys_element_mapping&gt;
+    &lt;sys_element_mapping action="INSERT_OR_UPDATE"&gt;
+        &lt;field&gt;json_string&lt;/field&gt;
+        &lt;id&gt;15c991e94772951096fcb777746d4390&lt;/id&gt;
+        &lt;sys_created_by&gt;bcone&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2022-10-27 07:10:00&lt;/sys_created_on&gt;
+        &lt;sys_id&gt;95c991e94772951096fcb777746d4391&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;
+        &lt;sys_updated_by&gt;bcone&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2022-10-27 07:10:00&lt;/sys_updated_on&gt;
+        &lt;table&gt;var__m_sys_hub_action_input_bd5b6e7847b2d11096fcb777746d434f&lt;/table&gt;
+        &lt;value&gt;{{d144c0dd-92d8-4937-9912-2502b2601099.output}}&lt;/value&gt;
+    &lt;/sys_element_mapping&gt;
+    &lt;sys_hub_input_scripts action="delete_multiple" query="instance=15c991e94772951096fcb777746d4390"/&gt;
+    &lt;sys_hub_alias_mapping action="delete_multiple" query="source_id=15c991e94772951096fcb777746d4390"/&gt;
+    &lt;sys_hub_action_instance action="INSERT_OR_UPDATE"&gt;
+        &lt;action_inputs/&gt;
+        &lt;action_type display_value="Execute RFC"&gt;878053f3c7043010678d208c95c26025&lt;/action_type&gt;
+        &lt;action_type_parent display_value="Execute RFC"&gt;006b07ffc7c03010678d208c95c26001&lt;/action_type_parent&gt;
+        &lt;comment/&gt;
+        &lt;display_text/&gt;
+        &lt;flow display_value="Test Ledger Account data"&gt;38c991e94772951096fcb777746d432b&lt;/flow&gt;
+        &lt;order&gt;1&lt;/order&gt;
+        &lt;parent_ui_id/&gt;
+        &lt;sys_class_name&gt;sys_hub_action_instance&lt;/sys_class_name&gt;
+        &lt;sys_created_by&gt;bcone&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2022-10-27 07:09:59&lt;/sys_created_on&gt;
+        &lt;sys_id&gt;95c991e94772951096fcb777746d436e&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;2&lt;/sys_mod_count&gt;
+        &lt;sys_scope display_value="Primary Data Integration with SAP"&gt;93c7f5cb875a1950fd73642d0ebb3590&lt;/sys_scope&gt;
+        &lt;sys_updated_by&gt;bcone&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2022-10-27 07:09:59&lt;/sys_updated_on&gt;
+        &lt;ui_id&gt;d144c0dd-92d8-4937-9912-2502b2601099&lt;/ui_id&gt;
+    &lt;/sys_hub_action_instance&gt;
+    &lt;sys_variable_value action="delete_multiple" query="document_key=95c991e94772951096fcb777746d436e"/&gt;
+    &lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;
+        &lt;document&gt;sys_hub_action_instance&lt;/document&gt;
+        &lt;document_key&gt;95c991e94772951096fcb777746d436e&lt;/document_key&gt;
+        &lt;order&gt;3&lt;/order&gt;
+        &lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;
+        &lt;sys_created_by&gt;bcone&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2022-10-27 07:09:59&lt;/sys_created_on&gt;
+        &lt;sys_id&gt;11c991e94772951096fcb777746d4371&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;
+        &lt;sys_updated_by&gt;bcone&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2022-10-27 07:09:59&lt;/sys_updated_on&gt;
+        &lt;value&gt;IV_QUERY_TABLE=SKB1^IV_DELIMITER=,﻿^IV_ROWCOUNT=2&lt;/value&gt;
+        &lt;variable display_value="Import and Changing Tab Inputs"&gt;878053f3c7043010678d208c95c26037&lt;/variable&gt;
+    &lt;/sys_variable_value&gt;
+    &lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;
+        &lt;document&gt;sys_hub_action_instance&lt;/document&gt;
+        &lt;document_key&gt;95c991e94772951096fcb777746d436e&lt;/document_key&gt;
+        &lt;order&gt;2&lt;/order&gt;
+        &lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;
+        &lt;sys_created_by&gt;bcone&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2022-10-27 07:09:59&lt;/sys_created_on&gt;
+        &lt;sys_id&gt;5dc991e94772951096fcb777746d4370&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;
+        &lt;sys_updated_by&gt;bcone&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2022-10-27 07:09:59&lt;/sys_updated_on&gt;
+        &lt;value&gt;99d0c7f54756d51096fcb777746d43ca&lt;/value&gt;
+        &lt;variable display_value="RFC"&gt;478053f3c7043010678d208c95c2602f&lt;/variable&gt;
+    &lt;/sys_variable_value&gt;
+    &lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;
+        &lt;document&gt;sys_hub_action_instance&lt;/document&gt;
+        &lt;document_key&gt;95c991e94772951096fcb777746d436e&lt;/document_key&gt;
+        &lt;order&gt;1&lt;/order&gt;
+        &lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;
+        &lt;sys_created_by&gt;bcone&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2022-10-27 07:09:59&lt;/sys_created_on&gt;
+        &lt;sys_id&gt;99c991e94772951096fcb777746d4370&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;
+        &lt;sys_updated_by&gt;bcone&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2022-10-27 07:09:59&lt;/sys_updated_on&gt;
+        &lt;value&gt;d0578871dbad8010ea4494d9db9619d9&lt;/value&gt;
+        &lt;variable display_value="Connection Alias"&gt;4b8053f3c7043010678d208c95c26026&lt;/variable&gt;
+    &lt;/sys_variable_value&gt;
+    &lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;
+        &lt;document&gt;sys_hub_action_instance&lt;/document&gt;
+        &lt;document_key&gt;95c991e94772951096fcb777746d436e&lt;/document_key&gt;
+        &lt;order&gt;5&lt;/order&gt;
+        &lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;
+        &lt;sys_created_by&gt;bcone&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2022-10-27 07:09:59&lt;/sys_created_on&gt;
+        &lt;sys_id&gt;d5c991e94772951096fcb777746d4370&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;
+        &lt;sys_updated_by&gt;bcone&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2022-10-27 07:09:59&lt;/sys_updated_on&gt;
+        &lt;value&gt;{"children":[{"children":[{"name":"TYPE","label":"TYPE","type":"string"},{"name":"ID","label":"ID","type":"string"},{"name":"NUMBER","label":"NUMBER","type":"string"},{"name":"MESSAGE","label":"MESSAGE","type":"string"},{"name":"LOG_NO","label":"LOG_NO","type":"string"},{"name":"LOG_MSG_NO","label":"LOG_MSG_NO","type":"string"},{"name":"MESSAGE_V1","label":"MESSAGE_V1","type":"string"},{"name":"MESSAGE_V2","label":"MESSAGE_V2","type":"string"},{"name":"MESSAGE_V3","label":"MESSAGE_V3","type":"string"},{"name":"MESSAGE_V4","label":"MESSAGE_V4","type":"string"},{"name":"PARAMETER","label":"PARAMETER","type":"string"},{"name":"ROW","label":"ROW","type":"integer"},{"name":"FIELD","label":"FIELD","type":"string"},{"name":"SYSTEM","label":"SYSTEM","type":"string"}],"name":"ET_RETURN","attributes":{"child_type":"object"},"label":"Return table [ ET_RETURN ]","type":"array.object"},{"children":[{"name":"WA","label":"Application data [ WA ]","type":"string"},{"name":"WA1","label":"Application data [ WA1 ]","type":"string"},{"name":"WA2","label":"Application data [ WA2 ]","type":"string"},{"name":"WA3","label":"Application data [ WA3 ]","type":"string"},{"name":"WA4","label":"Application data [ WA4 ]","type":"string"},{"name":"WA5","label":"Application data [ WA5 ]","type":"string"},{"name":"WA6","label":"Application data [ WA6 ]","type":"string"},{"name":"WA7","label":"Application data [ WA7 ]","type":"string"},{"name":"WA8","label":"Application data [ WA8 ]","type":"string"},{"name":"WA9","label":"Application data [ WA9 ]","type":"string"},{"name":"WA10","label":"Application data [ WA10 ]","type":"string"},{"name":"WA11","label":"Application data [ WA11 ]","type":"string"},{"name":"WA12","label":"Application data [ WA12 ]","type":"string"},{"name":"WA13","label":"Application data [ WA13 ]","type":"string"},{"name":"WA14","label":"Application data [ WA14 ]","type":"string"},{"name":"WA15","label":"Application data [ WA15 ]","type":"string"},{"name":"WA16","label":"Application data [ WA16 ]","type":"string"},{"name":"WA17","label":"Application data [ WA17 ]","type":"string"},{"name":"WA18","label":"Application data [ WA18 ]","type":"string"},{"name":"WA19","label":"Application data [ WA19 ]","type":"string"},{"name":"WA20","label":"Application data [ WA20 ]","type":"string"},{"name":"WA21","label":"Application data [ WA21 ]","type":"string"},{"name":"WA22","label":"Application data [ WA22 ]","type":"string"},{"name":"WA23","label":"Application data [ WA23 ]","type":"string"},{"name":"WA24","label":"Application data [ WA24 ]","type":"string"},{"name":"WA25","label":"Application data [ WA25 ]","type":"string"},{"name":"WA26","label":"Application data [ WA26 ]","type":"string"},{"name":"WA27","label":"Application data [ WA27 ]","type":"string"},{"name":"WA28","label":"Application data [ WA28 ]","type":"string"},{"name":"WA29","label":"Application data [ WA29 ]","type":"string"},{"name":"WA30","label":"Application data [ WA30 ]","type":"string"}],"name":"IT_DATA","attributes":{"child_type":"object"},"label":"Search Result Format: 8000-Byte Field [ IT_DATA ]","type":"array.object"},{"children":[{"name":"FIELDNAME","label":"Field Name","type":"string"},{"name":"OFFSET","label":"Offset of a field","type":"string"},{"name":"LENGTH","label":"No of Characters","type":"string"},{"name":"TYPE","label":"ABAP type","type":"string"},{"name":"FIELDTEXT","label":"Short Description","type":"string"}],"name":"IT_FIELDS","attributes":{"child_type":"object"},"label":"RFC Table Read: Description of Fields to Retrieve [ IT_FIELDS ]","type":"array.object"},{"children":[{"name":"TEXT","label":"Text field","type":"string"}],"name":"IT_OPTIONS","attributes":{"child_type":"object"},"label":"RFC Table Read: Select Options / WHERE Clause [ IT_OPTIONS ]","type":"array.object"}],"type":"object","attributes":{"dynamic":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"ec3feb55-c033-40de-b020-c5065f65edc0"}}&lt;/value&gt;
+        &lt;variable display_value="Response"&gt;078053f3c7043010678d208c95c26045&lt;/variable&gt;
+    &lt;/sys_variable_value&gt;
+    &lt;sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_action_input_878053f3c7043010678d208c95c26025^id=95c991e94772951096fcb777746d436e"/&gt;
+    &lt;sys_hub_input_scripts action="delete_multiple" query="instance=95c991e94772951096fcb777746d436e"/&gt;
+    &lt;sys_hub_alias_mapping action="delete_multiple" query="source_id=95c991e94772951096fcb777746d436e"/&gt;
+    &lt;sys_hub_sub_flow_instance action="delete_multiple" query="flow=38c991e94772951096fcb777746d432b"/&gt;
+    &lt;sys_hub_flow_logic action="delete_multiple" query="flow=38c991e94772951096fcb777746d432b^sys_idNOT IN3cc991e94772951096fcb777746d432f"/&gt;
+    &lt;sys_hub_flow_logic action="INSERT_OR_UPDATE"&gt;
+        &lt;block display_value=""&gt;8aaca8e947be551096fcb777746d4356&lt;/block&gt;
+        &lt;comment/&gt;
+        &lt;connected_to/&gt;
+        &lt;decision_table/&gt;
+        &lt;decision_table_inputs/&gt;
+        &lt;display_text/&gt;
+        &lt;extended_inputs/&gt;
+        &lt;flow display_value="Test Ledger Account data"&gt;38c991e94772951096fcb777746d432b&lt;/flow&gt;
+        &lt;flow_variable/&gt;
+        &lt;flow_variables_assigned/&gt;
+        &lt;inputs/&gt;
+        &lt;inputs/&gt;
+        &lt;logic_definition display_value="If"&gt;af4e1945c3e232002841b63b12d3ae3e&lt;/logic_definition&gt;
+        &lt;order&gt;2&lt;/order&gt;
+        &lt;outputs_assigned/&gt;
+        &lt;outputs_to_assign/&gt;
+        &lt;parent_ui_id/&gt;
+        &lt;sys_class_name&gt;sys_hub_flow_logic&lt;/sys_class_name&gt;
+        &lt;sys_created_by&gt;bcone&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2022-10-27 07:09:58&lt;/sys_created_on&gt;
+        &lt;sys_id&gt;3cc991e94772951096fcb777746d432f&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;
+        &lt;sys_scope/&gt;
+        &lt;sys_updated_by&gt;bcone&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2022-10-27 07:09:58&lt;/sys_updated_on&gt;
+        &lt;ui_id&gt;9c27f3e4-ab72-4316-a0f8-8b0b84439cde&lt;/ui_id&gt;
+        &lt;workflow_inputs/&gt;
+        &lt;workflow_reference/&gt;
+    &lt;/sys_hub_flow_logic&gt;
+    &lt;sys_variable_value action="delete_multiple" query="document_key=3cc991e94772951096fcb777746d432f"/&gt;
+    &lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;
+        &lt;document&gt;sys_hub_flow_logic&lt;/document&gt;
+        &lt;document_key&gt;3cc991e94772951096fcb777746d432f&lt;/document_key&gt;
+        &lt;order&gt;10&lt;/order&gt;
+        &lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;
+        &lt;sys_created_by&gt;bcone&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2022-10-27 07:09:58&lt;/sys_created_on&gt;
+        &lt;sys_id&gt;c9c991e94772951096fcb777746d4332&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;
+        &lt;sys_updated_by&gt;bcone&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2022-10-27 07:09:58&lt;/sys_updated_on&gt;
+        &lt;value&gt;Execute RFC is successful&lt;/value&gt;
+        &lt;variable display_value="Condition Label"&gt;f0af19c1c32632002841b63b12d3aea3&lt;/variable&gt;
+    &lt;/sys_variable_value&gt;
+    &lt;sys_element_mapping action="delete_multiple" query="id=3cc991e94772951096fcb777746d432f"/&gt;
+    &lt;sys_element_mapping action="INSERT_OR_UPDATE"&gt;
+        &lt;field&gt;condition&lt;/field&gt;
+        &lt;id&gt;3cc991e94772951096fcb777746d432f&lt;/id&gt;
+        &lt;sys_created_by&gt;bcone&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2022-10-27 07:09:58&lt;/sys_created_on&gt;
+        &lt;sys_id&gt;49c991e94772951096fcb777746d4332&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;
+        &lt;sys_updated_by&gt;bcone&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2022-10-27 07:09:58&lt;/sys_updated_on&gt;
+        &lt;table&gt;var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e&lt;/table&gt;
+        &lt;value&gt;{{d144c0dd-92d8-4937-9912-2502b2601099.status}}=success&lt;/value&gt;
+    &lt;/sys_element_mapping&gt;
+    &lt;sys_element_mapping action="INSERT_OR_UPDATE"&gt;
+        &lt;field&gt;condition_name&lt;/field&gt;
+        &lt;id&gt;3cc991e94772951096fcb777746d432f&lt;/id&gt;
+        &lt;sys_created_by&gt;bcone&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2022-10-27 07:09:58&lt;/sys_created_on&gt;
+        &lt;sys_id&gt;b4c991e94772951096fcb777746d4332&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;
+        &lt;sys_updated_by&gt;bcone&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2022-10-27 07:09:58&lt;/sys_updated_on&gt;
+        &lt;table&gt;var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e&lt;/table&gt;
+        &lt;value/&gt;
+    &lt;/sys_element_mapping&gt;
+    &lt;sys_hub_flow_logic_ext_input action="delete_multiple" query="model=3cc991e94772951096fcb777746d432f"/&gt;
+    &lt;sys_hub_input_scripts action="delete_multiple" query="instance=3cc991e94772951096fcb777746d432f"/&gt;
+    &lt;sys_hub_pill_compound action="delete_multiple" query="attached_to=38c991e94772951096fcb777746d432b"/&gt;
+    &lt;sys_hub_flow_variable action="delete_multiple" query="model=38c991e94772951096fcb777746d432b"/&gt;
+    &lt;sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_38c991e94772951096fcb777746d432b"/&gt;
+    &lt;sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_38c991e94772951096fcb777746d432b"/&gt;
+    &lt;sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_38c991e94772951096fcb777746d432b"/&gt;
+    &lt;sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_38c991e94772951096fcb777746d432b"/&gt;
+    &lt;sys_hub_flow action="UPDATE"&gt;
+        &lt;sys_id&gt;677b20a947be551096fcb777746d434b&lt;/sys_id&gt;
+        &lt;latest_snapshot&gt;38c991e94772951096fcb777746d432b&lt;/latest_snapshot&gt;
+        &lt;compiler_build&gt;glide-sandiego-12-22-2021__patch4a-06-21-2022_07-12-2022_1907.zip&lt;/compiler_build&gt;
+    &lt;/sys_hub_flow&gt;
+&lt;/record_update&gt;</payload>
+        <payload_hash>706998047</payload_hash>
+        <record_name>Test Ledger Account data</record_name>
+        <reverted_from/>
+        <source>17c99c43879bd11002c4a64d0ebb35f3</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>Prama</sys_created_by>
+        <sys_created_on>2022-11-25 14:58:42</sys_created_on>
+        <sys_id>fd2b94c7879bd11002c4a64d0ebb3524</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>184af4c459a0000001</sys_recorded_at>
+        <sys_updated_by>Prama</sys_updated_by>
+        <sys_updated_on>2022-11-25 14:58:42</sys_updated_on>
+        <type>Flow</type>
+        <update_guid>3d2b94c7649bd11032f25f7f27d28724</update_guid>
+        <update_guid_history>3d2b94c7649bd11032f25f7f27d28724:0,3d2b94c7099bd110a3c80a9ff3ba6a23:-1505395993</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>Prama</sys_created_by>
+        <sys_created_on>2022-11-25 16:09:09</sys_created_on>
+        <sys_db_object display_value="" name="sys_hub_flow">sys_hub_flow</sys_db_object>
+        <sys_id>87ea8e0ab19841e0893d669dd7471790</sys_id>
+        <sys_metadata>677b20a947be551096fcb777746d434b</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Test Ledger Account data</sys_name>
+        <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
+        <sys_scope_delete display_value="">3b1319908ebb4a548e7d16c1ed008664</sys_scope_delete>
+        <sys_update_name>sys_hub_flow_677b20a947be551096fcb777746d434b</sys_update_name>
+        <sys_update_version display_value="sys_hub_flow_677b20a947be551096fcb777746d434b">fd2b94c7879bd11002c4a64d0ebb3524</sys_update_version>
+        <sys_updated_by>Prama</sys_updated_by>
+        <sys_updated_on>2022-11-25 16:09:09</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

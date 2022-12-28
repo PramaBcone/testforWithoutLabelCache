@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sn_sap_data_int_integrations_source">
+    <sn_sap_data_int_integrations_source action="DELETE">
+        <connection>d0578871dbad8010ea4494d9db9619d9</connection>
+        <name>Services</name>
+        <properties/>
+        <sys_class_name>sn_sap_data_int_integrations_source</sys_class_name>
+        <sys_created_by>bcone</sys_created_by>
+        <sys_created_on>2022-11-18 10:59:23</sys_created_on>
+        <sys_id>6f01e7a047df111086887562846d434c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Services</sys_name>
+        <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
+        <sys_update_name>sn_sap_data_int_integrations_source_6f01e7a047df111086887562846d434c</sys_update_name>
+        <sys_updated_by>bcone</sys_updated_by>
+        <sys_updated_on>2022-11-18 10:59:23</sys_updated_on>
+    </sn_sap_data_int_integrations_source>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</application>
+        <file_path/>
+        <instance_id>2a39b676db1b55d00b9d21c40596192c</instance_id>
+        <instance_name>psmromedev001</instance_name>
+        <name>sn_sap_data_int_integrations_source_6f01e7a047df111086887562846d434c</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sn_sap_data_int_integrations_source">
+    <sn_sap_data_int_integrations_source action="INSERT_OR_UPDATE">
+        <connection>d0578871dbad8010ea4494d9db9619d9</connection>
+        <name>Services</name>
+        <properties/>
+        <sys_class_name>sn_sap_data_int_integrations_source</sys_class_name>
+        <sys_created_by>bcone</sys_created_by>
+        <sys_created_on>2022-11-18 10:59:23</sys_created_on>
+        <sys_id>6f01e7a047df111086887562846d434c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Services</sys_name>
+        <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
+        <sys_update_name>sn_sap_data_int_integrations_source_6f01e7a047df111086887562846d434c</sys_update_name>
+        <sys_updated_by>bcone</sys_updated_by>
+        <sys_updated_on>2022-11-18 10:59:23</sys_updated_on>
+    </sn_sap_data_int_integrations_source>
+</record_update>]]></payload>
+        <payload_hash>-1718308955</payload_hash>
+        <record_name>Services</record_name>
+        <reverted_from/>
+        <source>040c93c3879b1110a3e3cbb4dabb3586</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>current</state>
+        <sys_created_by>psm_admin</sys_created_by>
+        <sys_created_on>2022-11-26 05:01:17</sys_created_on>
+        <sys_id>680cd3c3879b1110a3e3cbb4dabb3525</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>184b24fb0da0000001</sys_recorded_at>
+        <sys_updated_by>psm_admin</sys_updated_by>
+        <sys_updated_on>2022-11-26 05:01:17</sys_updated_on>
+        <type>Integration Source</type>
+        <update_guid>280cd3c3d49b1110138a8bdd3309c525</update_guid>
+        <update_guid_history>280cd3c3d49b1110138a8bdd3309c525:-1718308955</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Services">249329bc8763d110a3e3cbb4dabb3563</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>krishna</sys_created_by>
+        <sys_created_on>2022-12-01 06:44:28</sys_created_on>
+        <sys_db_object display_value="" name="sn_sap_data_int_integrations_source">sn_sap_data_int_integrations_source</sys_db_object>
+        <sys_id>4f2f63f2191345558e9a17f98a2a3c39</sys_id>
+        <sys_metadata>6f01e7a047df111086887562846d434c</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Services</sys_name>
+        <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
+        <sys_scope_delete display_value="">3b1319908ebb4a548e7d16c1ed008664</sys_scope_delete>
+        <sys_update_name>sn_sap_data_int_integrations_source_6f01e7a047df111086887562846d434c</sys_update_name>
+        <sys_update_version display_value="sn_sap_data_int_integrations_source_6f01e7a047df111086887562846d434c">680cd3c3879b1110a3e3cbb4dabb3525</sys_update_version>
+        <sys_updated_by>krishna</sys_updated_by>
+        <sys_updated_on>2022-12-01 06:44:28</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

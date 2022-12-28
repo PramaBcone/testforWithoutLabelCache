@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="DELETE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>Mayank</sys_created_by>
+        <sys_created_on>2022-10-11 12:49:58</sys_created_on>
+        <sys_id>e12e086887e69d50fd73642d0ebb3531</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>sn_sap_data_int_integration_source.sn_sap_data_int.integration_source_user</sys_name>
+        <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
+        <sys_security_acl display_value="Primary Data Integration with SAP">612e086887e69d50fd73642d0ebb352c</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_e12e086887e69d50fd73642d0ebb3531</sys_update_name>
+        <sys_updated_by>Mayank</sys_updated_by>
+        <sys_updated_on>2022-10-11 12:49:58</sys_updated_on>
+        <sys_user_role display_value="Primary Data Integration with SAP" name="sn_sap_data_int.integration_source_user">912e846887e69d50fd73642d0ebb3581</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</application>
+        <file_path/>
+        <instance_id>c3971254db734dd00ae3ac44d4961955</instance_id>
+        <instance_name>sfmcsd02</instance_name>
+        <name>sys_security_acl_role_e12e086887e69d50fd73642d0ebb3531</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>Mayank</sys_created_by>
+        <sys_created_on>2022-10-11 12:49:58</sys_created_on>
+        <sys_id>e12e086887e69d50fd73642d0ebb3531</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>sn_sap_data_int_integration_source.sn_sap_data_int.integration_source_user</sys_name>
+        <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
+        <sys_security_acl display_value="Primary Data Integration with SAP">612e086887e69d50fd73642d0ebb352c</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_e12e086887e69d50fd73642d0ebb3531</sys_update_name>
+        <sys_updated_by>Mayank</sys_updated_by>
+        <sys_updated_on>2022-10-11 12:49:58</sys_updated_on>
+        <sys_user_role display_value="Primary Data Integration with SAP" name="sn_sap_data_int.integration_source_user">912e846887e69d50fd73642d0ebb3581</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+</record_update>]]></payload>
+        <payload_hash>488675979</payload_hash>
+        <record_name>sn_sap_data_int_integration_source.sn_sap_data_int.integration_source_user</record_name>
+        <reverted_from/>
+        <source>17c99c43879bd11002c4a64d0ebb35f3</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>Prama</sys_created_by>
+        <sys_created_on>2022-11-25 15:00:52</sys_created_on>
+        <sys_id>e1abd44b879bd11002c4a64d0ebb35a2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>184af4e427b0000001</sys_recorded_at>
+        <sys_updated_by>Prama</sys_updated_by>
+        <sys_updated_on>2022-11-25 15:00:52</sys_updated_on>
+        <type>Access Roles</type>
+        <update_guid>a1abd44be39bd110c5ebc0d1e4ea93a2</update_guid>
+        <update_guid_history>a1abd44be39bd110c5ebc0d1e4ea93a2:488675979</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="sn_sap_data_int_integration_source.sn_sap_data_int.integration_source_user">fee7e88787dbd11002c4a64d0ebb35d0</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>Prama</sys_created_by>
+        <sys_created_on>2022-11-25 15:54:29</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl_role">sys_security_acl_role</sys_db_object>
+        <sys_id>80fe3155c7394f2b87d092350c8ff1c9</sys_id>
+        <sys_metadata>e12e086887e69d50fd73642d0ebb3531</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>sn_sap_data_int_integration_source.sn_sap_data_int.integration_source_user</sys_name>
+        <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
+        <sys_scope_delete display_value="">3b1319908ebb4a548e7d16c1ed008664</sys_scope_delete>
+        <sys_update_name>sys_security_acl_role_e12e086887e69d50fd73642d0ebb3531</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_role_e12e086887e69d50fd73642d0ebb3531">e1abd44b879bd11002c4a64d0ebb35a2</sys_update_version>
+        <sys_updated_by>Prama</sys_updated_by>
+        <sys_updated_on>2022-11-25 15:54:29</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

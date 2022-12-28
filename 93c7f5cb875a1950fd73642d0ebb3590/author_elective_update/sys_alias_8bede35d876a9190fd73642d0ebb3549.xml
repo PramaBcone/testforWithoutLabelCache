@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_alias">
+    <sys_alias action="DELETE">
+        <configuration_template/>
+        <connection_type>http_connection</connection_type>
+        <id>sn_sap_data_int.SAP_ECC_US_800</id>
+        <multiple_connections>false</multiple_connections>
+        <name>SAP ECC US 800</name>
+        <parent/>
+        <retry_policy display_value="Global">ef751ff07301330025d71afe2ff6a7f9</retry_policy>
+        <sys_class_name>sys_alias</sys_class_name>
+        <sys_created_by>Mayank</sys_created_by>
+        <sys_created_on>2022-10-14 13:03:21</sys_created_on>
+        <sys_id>8bede35d876a9190fd73642d0ebb3549</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>sn_sap_data_int.SAP_ECC_US_800</sys_name>
+        <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
+        <sys_update_name>sys_alias_8bede35d876a9190fd73642d0ebb3549</sys_update_name>
+        <sys_updated_by>Mayank</sys_updated_by>
+        <sys_updated_on>2022-10-14 13:03:21</sys_updated_on>
+        <type>connection</type>
+    </sys_alias>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</application>
+        <file_path/>
+        <instance_id>c3971254db734dd00ae3ac44d4961955</instance_id>
+        <instance_name>sfmcsd02</instance_name>
+        <name>sys_alias_8bede35d876a9190fd73642d0ebb3549</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_alias">
+    <sys_alias action="INSERT_OR_UPDATE">
+        <configuration_template/>
+        <connection_type>http_connection</connection_type>
+        <id>sn_sap_data_int.SAP_ECC_US_800</id>
+        <multiple_connections>false</multiple_connections>
+        <name>SAP ECC US 800</name>
+        <parent/>
+        <retry_policy display_value="Global">ef751ff07301330025d71afe2ff6a7f9</retry_policy>
+        <sys_class_name>sys_alias</sys_class_name>
+        <sys_created_by>Mayank</sys_created_by>
+        <sys_created_on>2022-10-14 13:03:21</sys_created_on>
+        <sys_id>8bede35d876a9190fd73642d0ebb3549</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>sn_sap_data_int.SAP_ECC_US_800</sys_name>
+        <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
+        <sys_update_name>sys_alias_8bede35d876a9190fd73642d0ebb3549</sys_update_name>
+        <sys_updated_by>Mayank</sys_updated_by>
+        <sys_updated_on>2022-10-14 13:03:21</sys_updated_on>
+        <type>connection</type>
+    </sys_alias>
+</record_update>]]></payload>
+        <payload_hash>1812868674</payload_hash>
+        <record_name>sn_sap_data_int.SAP_ECC_US_800</record_name>
+        <reverted_from/>
+        <source>17c99c43879bd11002c4a64d0ebb35f3</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>Prama</sys_created_by>
+        <sys_created_on>2022-11-25 14:52:50</sys_created_on>
+        <sys_id>80d9dc43879bd11002c4a64d0ebb35cf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>184af46e9660000001</sys_recorded_at>
+        <sys_updated_by>Prama</sys_updated_by>
+        <sys_updated_on>2022-11-25 14:52:50</sys_updated_on>
+        <type>Connection &amp; Credential Aliases</type>
+        <update_guid>40d9dc439a9bd110458693825fe598cf</update_guid>
+        <update_guid_history>40d9dc439a9bd110458693825fe598cf:1812868674</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>Prama</sys_created_by>
+        <sys_created_on>2022-11-25 16:11:04</sys_created_on>
+        <sys_db_object display_value="" name="sys_alias">sys_alias</sys_db_object>
+        <sys_id>9233263c27a3479a8ed4f00f63ab62a4</sys_id>
+        <sys_metadata>8bede35d876a9190fd73642d0ebb3549</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>sn_sap_data_int.SAP_ECC_US_800</sys_name>
+        <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
+        <sys_scope_delete display_value="">3b1319908ebb4a548e7d16c1ed008664</sys_scope_delete>
+        <sys_update_name>sys_alias_8bede35d876a9190fd73642d0ebb3549</sys_update_name>
+        <sys_update_version display_value="sys_alias_8bede35d876a9190fd73642d0ebb3549">80d9dc43879bd11002c4a64d0ebb35cf</sys_update_version>
+        <sys_updated_by>Prama</sys_updated_by>
+        <sys_updated_on>2022-11-25 16:11:04</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

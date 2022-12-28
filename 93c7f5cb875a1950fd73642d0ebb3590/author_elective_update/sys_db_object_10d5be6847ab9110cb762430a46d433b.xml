@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_db_object">
+    <sys_db_object action="DELETE">
+        <access>public</access>
+        <actions_access>true</actions_access>
+        <alter_access>true</alter_access>
+        <caller_access/>
+        <client_scripts_access>true</client_scripts_access>
+        <configuration_access>true</configuration_access>
+        <create_access>true</create_access>
+        <create_access_controls>true</create_access_controls>
+        <delete_access>true</delete_access>
+        <extension_model/>
+        <is_extendable>false</is_extendable>
+        <label>ERP Plant Address Mapping</label>
+        <live_feed_enabled>false</live_feed_enabled>
+        <name>sn_sap_data_int_st_erp_plant_address_mapping</name>
+        <number_ref/>
+        <provider_class/>
+        <read_access>true</read_access>
+        <scriptable_table>true</scriptable_table>
+        <super_class/>
+        <sys_class_code/>
+        <sys_class_name>sys_db_object</sys_class_name>
+        <sys_class_path/>
+        <sys_created_by>priyanshi</sys_created_by>
+        <sys_created_on>2022-11-30 18:07:59</sys_created_on>
+        <sys_id>10d5be6847ab9110cb762430a46d433b</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>ERP Plant Address Mapping</sys_name>
+        <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
+        <sys_update_name>sys_db_object_10d5be6847ab9110cb762430a46d433b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-12-06 05:34:33</sys_updated_on>
+        <update_access>true</update_access>
+        <user_role display_value="sn_sap_data_int.erp_plant_address_mapping_user" name="sn_sap_data_int.erp_plant_address_mapping_user">f68d8edc4793955096fcb777746d4343</user_role>
+        <ws_access>true</ws_access>
+    </sys_db_object>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</application>
+        <file_path/>
+        <instance_id>2a39b676db1b55d00b9d21c40596192c</instance_id>
+        <instance_name>psmromedev001</instance_name>
+        <name>sys_db_object_10d5be6847ab9110cb762430a46d433b</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_db_object"><sys_db_object action="INSERT_OR_UPDATE"><access>public</access><actions_access>true</actions_access><alter_access>true</alter_access><caller_access/><client_scripts_access>true</client_scripts_access><configuration_access>true</configuration_access><create_access>true</create_access><create_access_controls>true</create_access_controls><delete_access>true</delete_access><extension_model/><is_extendable>false</is_extendable><label>ERP Plant Address Mapping</label><live_feed_enabled>false</live_feed_enabled><name>sn_sap_data_int_st_erp_plant_address_mapping</name><number_ref/><provider_class/><read_access>true</read_access><scriptable_table>true</scriptable_table><super_class/><sys_class_code/><sys_class_name>sys_db_object</sys_class_name><sys_class_path/><sys_created_by>priyanshi</sys_created_by><sys_created_on>2022-11-30 18:07:59</sys_created_on><sys_id>10d5be6847ab9110cb762430a46d433b</sys_id><sys_mod_count>1</sys_mod_count><sys_name>ERP Plant Address Mapping</sys_name><sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package><sys_policy/><sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope><sys_update_name>sys_db_object_10d5be6847ab9110cb762430a46d433b</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-12-06 05:34:33</sys_updated_on><update_access>true</update_access><user_role display_value="sn_sap_data_int.erp_plant_address_mapping_user" name="sn_sap_data_int.erp_plant_address_mapping_user">f68d8edc4793955096fcb777746d4343</user_role><ws_access>true</ws_access></sys_db_object></record_update>]]></payload>
+        <payload_hash>1533112286</payload_hash>
+        <record_name>ERP Plant Address Mapping</record_name>
+        <reverted_from/>
+        <source>c7b43a2847ab9110cb762430a46d4386</source>
+        <source_table>sys_update_set</source_table>
+        <state>current</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-12-06 05:34:34</sys_created_on>
+        <sys_id>1183cf9287af1910a3e3cbb4dabb357e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>184e5edbf4b0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-12-06 05:34:34</sys_updated_on>
+        <type>Table</type>
+        <update_guid>d583cf9239af1910c7db79654c31fa7d</update_guid>
+        <update_guid_history>d583cf9239af1910c7db79654c31fa7d:1533112286,2876f6a84bab9110a78a6f3ec4a2be5c:1279234397</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>shreenag.araga</sys_created_by>
+        <sys_created_on>2022-12-06 08:33:28</sys_created_on>
+        <sys_db_object display_value="" name="sys_db_object">sys_db_object</sys_db_object>
+        <sys_id>0b12271e6ceb46a0821f0c2de990f710</sys_id>
+        <sys_metadata>10d5be6847ab9110cb762430a46d433b</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>ERP Plant Address Mapping</sys_name>
+        <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
+        <sys_scope_delete display_value="">3b1319908ebb4a548e7d16c1ed008664</sys_scope_delete>
+        <sys_update_name>sys_db_object_10d5be6847ab9110cb762430a46d433b</sys_update_name>
+        <sys_update_version display_value="sys_db_object_10d5be6847ab9110cb762430a46d433b">1183cf9287af1910a3e3cbb4dabb357e</sys_update_version>
+        <sys_updated_by>shreenag.araga</sys_updated_by>
+        <sys_updated_on>2022-12-06 08:33:28</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

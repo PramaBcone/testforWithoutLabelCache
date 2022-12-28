@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="DELETE">
+        <active>true</active>
+        <application display_value="ERP Plant Address Mapping ">6f8dc25047d3955096fcb777746d4354</application>
+        <assessment/>
+        <device_type/>
+        <filter/>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>LIST</link_type>
+        <map_page/>
+        <mobile_title>ERP Plant Address Mapping s</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>sn_sap_data_int_erp_plnt_adr_map</name>
+        <order/>
+        <override_menu_roles>false</override_menu_roles>
+        <query/>
+        <report/>
+        <roles>sn_sap_data_int.erp_plant_address_mapping_user</roles>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>bcone</sys_created_by>
+        <sys_created_on>2022-11-17 10:15:14</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>f78dc25047d3955096fcb777746d4358</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>ERP Plant Address Mapping s</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
+        <sys_update_name>sys_app_module_f78dc25047d3955096fcb777746d4358</sys_update_name>
+        <sys_updated_by>bcone</sys_updated_by>
+        <sys_updated_on>2022-11-17 10:15:14</sys_updated_on>
+        <timeline_page/>
+        <title>ERP Plant Address Mapping s</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</application>
+        <file_path/>
+        <instance_id>c3971254db734dd00ae3ac44d4961955</instance_id>
+        <instance_name>sfmcsd02</instance_name>
+        <name>sys_app_module_f78dc25047d3955096fcb777746d4358</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <application display_value="ERP Plant Address Mapping ">6f8dc25047d3955096fcb777746d4354</application>
+        <assessment/>
+        <device_type/>
+        <filter/>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>LIST</link_type>
+        <map_page/>
+        <mobile_title>ERP Plant Address Mapping s</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>sn_sap_data_int_erp_plnt_adr_map</name>
+        <order/>
+        <override_menu_roles>false</override_menu_roles>
+        <query/>
+        <report/>
+        <roles>sn_sap_data_int.erp_plant_address_mapping_user</roles>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>bcone</sys_created_by>
+        <sys_created_on>2022-11-17 10:15:14</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>f78dc25047d3955096fcb777746d4358</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>ERP Plant Address Mapping s</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
+        <sys_update_name>sys_app_module_f78dc25047d3955096fcb777746d4358</sys_update_name>
+        <sys_updated_by>bcone</sys_updated_by>
+        <sys_updated_on>2022-11-17 10:15:14</sys_updated_on>
+        <timeline_page/>
+        <title>ERP Plant Address Mapping s</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+</record_update>]]></payload>
+        <payload_hash>1145367189</payload_hash>
+        <record_name>ERP Plant Address Mapping s</record_name>
+        <reverted_from/>
+        <source>17c99c43879bd11002c4a64d0ebb35f3</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>Prama</sys_created_by>
+        <sys_created_on>2022-11-25 14:52:52</sys_created_on>
+        <sys_id>60d91083879bd11002c4a64d0ebb355e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>184af46f1230000001</sys_recorded_at>
+        <sys_updated_by>Prama</sys_updated_by>
+        <sys_updated_on>2022-11-25 14:52:52</sys_updated_on>
+        <type>Module</type>
+        <update_guid>20d91083019bd110659d2ff158d8e55e</update_guid>
+        <update_guid_history>20d91083019bd110659d2ff158d8e55e:1145367189</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="ERP Plant Address Mapping s">60e9ac0b87dbd11002c4a64d0ebb3549</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>Prama</sys_created_by>
+        <sys_created_on>2022-11-25 16:03:03</sys_created_on>
+        <sys_db_object display_value="" name="sys_app_module">sys_app_module</sys_db_object>
+        <sys_id>2a3634c1ac624edb897c35348889f021</sys_id>
+        <sys_metadata>f78dc25047d3955096fcb777746d4358</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>ERP Plant Address Mapping s</sys_name>
+        <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
+        <sys_scope_delete display_value="">3b1319908ebb4a548e7d16c1ed008664</sys_scope_delete>
+        <sys_update_name>sys_app_module_f78dc25047d3955096fcb777746d4358</sys_update_name>
+        <sys_update_version display_value="sys_app_module_f78dc25047d3955096fcb777746d4358">60d91083879bd11002c4a64d0ebb355e</sys_update_version>
+        <sys_updated_by>Prama</sys_updated_by>
+        <sys_updated_on>2022-11-25 16:03:03</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
